@@ -1,0 +1,13 @@
+body {
+  font-family: Roboto;
+}
+
+#info {
+  width: 100%;
+  text-align: center;
+}
+
+.container {
+  margin-left: 10%;
+  margin-right: 10%; 
+}
