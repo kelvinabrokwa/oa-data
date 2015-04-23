@@ -11,7 +11,7 @@ module.exports = React.createClass({
   },
   render: function () {
     return (
-      <input type='text' onChange={this.filter} />
+      <input type='text' placeholder='Search' onChange={this.filter} />
     )
   }
 });

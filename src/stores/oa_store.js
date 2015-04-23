@@ -14,7 +14,6 @@ module.exports = Reflux.createStore({
     return this.data;
   },
   filter: function (input) {
-    console.log(input);
     this.trigger(
       this.data.filter(function (i) {
         return (i.name.indexOf(input) > -1);

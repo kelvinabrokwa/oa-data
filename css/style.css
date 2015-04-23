@@ -8,6 +8,21 @@ body {
 }
 
 .container {
-  margin-left: 10%;
-  margin-right: 10%; 
+  margin-top: 3%;
+  margin-bottom: 10%;
+  margin-left: 20%;
+  margin-right: 20%; 
+}
+
+#app {
+  width: 100%;
+  text-align: center;
+}
+
+input[type="text"] {
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  //height: 50px;
+  //font-size: 40px;
 }
