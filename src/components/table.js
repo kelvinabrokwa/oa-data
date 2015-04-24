@@ -3,6 +3,23 @@
 var React = require('react');
 
 module.exports = React.createClass({
+  render: function () { 
+    var output = [];
+    this.props.data.forEach(function(country) {
+      var key = Object.keys(country)[0];
+      output.push(
+        <Table country={key} data={country[key]}/>
+      );
+    });
+    return (
+      <div>
+        {output}
+      </div>
+    );
+  }
+});
+
+var Table = React.createClass({
   render: function () {
     var raw = this.props.data;
     var output = []
@@ -18,7 +35,15 @@ module.exports = React.createClass({
     });
     return (
       <div>
+        <h3 id='country'>{this.props.country}</h3>
         <table>
+          <thead>
+            <tr>
+              <th className='name-col'>Name</th>
+              <th className='type-col'>Type</th>
+              <th className='dl-col'>Download</th>
+            </tr>
+          </thead>
           <tbody>
             {output}
           </tbody>
