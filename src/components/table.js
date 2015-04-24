@@ -22,7 +22,7 @@ module.exports = React.createClass({
 var Table = React.createClass({
   render: function () {
     var raw = this.props.data;
-    var output = []
+    var output = [];
     raw.forEach(function (r) {
       output.push(
         <Row
@@ -63,6 +63,5 @@ var Row = React.createClass({
         </td>
       </tr>
     )
-
   }
 });

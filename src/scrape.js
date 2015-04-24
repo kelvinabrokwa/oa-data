@@ -4,7 +4,6 @@ var fs = require('fs'),
     path = require('path'),
     request = require('request');
 
-var url = 'http://data.openaddresses.io/runs/1429682917.812/state.txt';
 function scrape (url) {
   request(url, function(err, resp, txt) {
     if (!err) {
@@ -15,10 +14,9 @@ function scrape (url) {
       }).filter(function(row) {
         return (row.length === 11) && (row[1]);
       });
+      rows.shift();
 
-      rows.shift()
-
-      var output = {}
+      var output = {};
       var iso = JSON.parse(fs.readFileSync(path.join(__dirname, 'iso.json')));
       
       rows.forEach(function(row) {
@@ -29,14 +27,14 @@ function scrape (url) {
         var obj = {};
         obj['name'] = row[0].split('.')[0];
         obj['csv'] = row[1];
-        obj['json'] = row[2];
+        obj['json'] = 'https://github.com/openaddresses/openaddresses/blob/master/sources/' + row[0];
         output[iso[code]].push(obj);
       });
 
       var out = [];
       for (var key in output) {
         var obj = {};
-        obj[key] = output[key]
+        obj[key] = output[key];
         out.push(obj);
       }
 
@@ -46,4 +44,5 @@ function scrape (url) {
   });
 }
 
-scrape(url)
+var url = 'http://data.openaddresses.io/runs/1429682917.812/state.txt';
+scrape(url);
