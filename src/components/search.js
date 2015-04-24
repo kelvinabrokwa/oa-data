@@ -9,6 +9,9 @@ module.exports = React.createClass({
   filter: function (e) {
     actions.filterList(e.target.value);
   },
+  map: function (e) {
+    actions.map(e.target.value);
+  },
   render: function () {
     return (
       <input type='text' placeholder='Search' onChange={this.filter} />

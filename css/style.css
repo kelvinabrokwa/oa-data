@@ -2,7 +2,7 @@
   width: 100%;
 }
 
-h1 {
+.center {
   text-align: center;
 }
 
@@ -18,8 +18,12 @@ h1 {
   text-align: center;
 }
 
+#map_container {
+  margin-top: 50px;
+}
+
 input[type="text"] {
-  width: 100%;
+  width: 60%;
   margin-top: 50px;
 }
 

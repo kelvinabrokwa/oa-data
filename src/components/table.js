@@ -47,7 +47,7 @@ var Table = React.createClass({
           </tbody>
         </table>
       </div>
-    )
+    );
   }
 });
 

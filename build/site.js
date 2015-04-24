@@ -4,19 +4,22 @@
 var React = require('react'),
     Reflux = require('reflux');
 
-var Search = require('./src/components/search'),
+var Map = require('./src/components/map'),
+    Search = require('./src/components/search'),
     Table = require('./src/components/table');
 
-var OaStore = require('./src/stores/oa_store.js');
+var OaStore = require('./src/stores/oa_store.js'),
+    MapStore = require('./src/stores/map_store');
 
 var App = React.createClass({
   displayName: 'App',
 
-  mixins: [Reflux.connect(OaStore, 'data')],
+  mixins: [Reflux.connect(OaStore, 'data'), Reflux.connect(MapStore, 'map')],
   render: function render() {
     return React.createElement(
       'div',
       null,
+      React.createElement(Map, { data: this.state.map }),
       React.createElement(Search, null),
       React.createElement(Table, { data: this.state.data })
     );
@@ -25,7 +28,7 @@ var App = React.createClass({
 
 React.render(React.createElement(App, null), document.getElementById('app'));
 
-},{"./src/components/search":179,"./src/components/table":180,"./src/stores/oa_store.js":182,"react":157,"reflux":158}],2:[function(require,module,exports){
+},{"./src/components/map":179,"./src/components/search":180,"./src/components/table":181,"./src/stores/map_store":184,"./src/stores/oa_store.js":185,"react":157,"reflux":158}],2:[function(require,module,exports){
 // shim for using process in browser
 
 var process = module.exports = {};
@@ -21117,6 +21120,57 @@ module.exports = Reflux.createActions({
 var React = require('react'),
     Reflux = require('reflux');
 
+module.exports = React.createClass({
+  displayName: 'exports',
+
+  render: function render() {
+    var data_obj = {};
+    this.props.data.forEach(function (country) {
+      data_obj[country] = { fillKey: 'result' };
+    });
+    this.props.data = data_obj;
+    return React.createElement(
+      'div',
+      null,
+      React.createElement(Map, { data: this.props.data })
+    );
+  }
+});
+
+var Map = React.createClass({
+  displayName: 'Map',
+
+  componentDidMount: function componentDidMount() {
+    this.map = new Datamap({
+      element: this.refs.map.getDOMNode(),
+      scope: 'world',
+      fills: {
+        result: '#3887be',
+        defaultFill: '#afafaf'
+      },
+      height: window.innerWidth / 5,
+      width: window.innerWidth / 2,
+      data: this.props.data
+    });
+  },
+  componentDidUpdate: function componentDidUpdate() {
+    this.map.updateChoropleth(this.props.data);
+  },
+  render: function render() {
+    return React.createElement(
+      'div',
+      { id: 'map_container' },
+      React.createElement('div', { id: 'map', ref: 'map' })
+    );
+  }
+});
+
+},{"react":157,"reflux":158}],180:[function(require,module,exports){
+'use strict';
+
+var React = require('react'),
+    Reflux = require('reflux');
+
 var actions = require('../actions/actions');
 
 module.exports = React.createClass({
@@ -21125,12 +21179,15 @@ module.exports = React.createClass({
   filter: function filter(e) {
     actions.filterList(e.target.value);
   },
+  map: function map(e) {
+    actions.map(e.target.value);
+  },
   render: function render() {
     return React.createElement('input', { type: 'text', placeholder: 'Search', onChange: this.filter });
   }
 });
 
-},{"../actions/actions":178,"react":157,"reflux":158}],180:[function(require,module,exports){
+},{"../actions/actions":178,"react":157,"reflux":158}],181:[function(require,module,exports){
 'use strict';
 
 var React = require('react');
@@ -21233,7 +21290,7 @@ var Row = React.createClass({
   }
 });
 
-},{"react":157}],181:[function(require,module,exports){
+},{"react":157}],182:[function(require,module,exports){
 module.exports=[
   {
     "Argentina": [
@@ -24757,7 +24814,291 @@ module.exports=[
     ]
   }
 ]
-},{}],182:[function(require,module,exports){
+},{}],183:[function(require,module,exports){
+module.exports={
+  "AFG": "Afghanistan",
+  "ALA": "Åland Islands",
+  "ALB": "Albania",
+  "DZA": "Algeria",
+  "ASM": "American Samoa",
+  "AND": "Andorra",
+  "AGO": "Angola",
+  "AIA": "Anguilla",
+  "ATA": "Antarctica",
+  "ATG": "Antigua and Barbuda",
+  "ARG": "Argentina",
+  "ARM": "Armenia",
+  "ABW": "Aruba",
+  "AUS": "Australia",
+  "AUT": "Austria",
+  "AZE": "Azerbaijan",
+  "BHS": "Bahamas",
+  "BHR": "Bahrain",
+  "BGD": "Bangladesh",
+  "BRB": "Barbados",
+  "BLR": "Belarus",
+  "BEL": "Belgium",
+  "BLZ": "Belize",
+  "BEN": "Benin",
+  "BMU": "Bermuda",
+  "BTN": "Bhutan",
+  "BOL": "Bolivia, Plurinational State of",
+  "BES": "Bonaire, Sint Eustatius and Saba",
+  "BIH": "Bosnia and Herzegovina",
+  "BWA": "Botswana",
+  "BVT": "Bouvet Island",
+  "BRA": "Brazil",
+  "IOT": "British Indian Ocean Territory",
+  "BRN": "Brunei Darussalam",
+  "BGR": "Bulgaria",
+  "BFA": "Burkina Faso",
+  "BDI": "Burundi",
+  "KHM": "Cambodia",
+  "CMR": "Cameroon",
+  "CAN": "Canada",
+  "CPV": "Cape Verde",
+  "CYM": "Cayman Islands",
+  "CAF": "Central African Republic",
+  "TCD": "Chad",
+  "CHL": "Chile",
+  "CHN": "China",
+  "CXR": "Christmas Island",
+  "CCK": "Cocos (Keeling) Islands",
+  "COL": "Colombia",
+  "COM": "Comoros",
+  "COG": "Congo",
+  "COD": "Congo, the Democratic Republic of the",
+  "COK": "Cook Islands",
+  "CRI": "Costa Rica",
+  "CIV": "Côte d'Ivoire",
+  "HRV": "Croatia",
+  "CUB": "Cuba",
+  "CUW": "Curaçao",
+  "CYP": "Cyprus",
+  "CZE": "Czech Republic",
+  "DNK": "Denmark",
+  "DJI": "Djibouti",
+  "DMA": "Dominica",
+  "DOM": "Dominican Republic",
+  "ECU": "Ecuador",
+  "EGY": "Egypt",
+  "SLV": "El Salvador",
+  "GNQ": "Equatorial Guinea",
+  "ERI": "Eritrea",
+  "EST": "Estonia",
+  "ETH": "Ethiopia",
+  "FLK": "Falkland Islands (Malvinas)",
+  "FRO": "Faroe Islands",
+  "FJI": "Fiji",
+  "FIN": "Finland",
+  "FRA": "France",
+  "GUF": "French Guiana",
+  "PYF": "French Polynesia",
+  "ATF": "French Southern Territories",
+  "GAB": "Gabon",
+  "GMB": "Gambia",
+  "GEO": "Georgia",
+  "DEU": "Germany",
+  "GHA": "Ghana",
+  "GIB": "Gibraltar",
+  "GRC": "Greece",
+  "GRL": "Greenland",
+  "GRD": "Grenada",
+  "GLP": "Guadeloupe",
+  "GUM": "Guam",
+  "GTM": "Guatemala",
+  "GGY": "Guernsey",
+  "GIN": "Guinea",
+  "GNB": "Guinea-Bissau",
+  "GUY": "Guyana",
+  "HTI": "Haiti",
+  "HMD": "Heard Island and McDonald Islands",
+  "VAT": "Holy See (Vatican City State)",
+  "HND": "Honduras",
+  "HKG": "Hong Kong",
+  "HUN": "Hungary",
+  "ISL": "Iceland",
+  "IND": "India",
+  "IDN": "Indonesia",
+  "IRN": "Iran, Islamic Republic of",
+  "IRQ": "Iraq",
+  "IRL": "Ireland",
+  "IMN": "Isle of Man",
+  "ISR": "Israel",
+  "ITA": "Italy",
+  "JAM": "Jamaica",
+  "JPN": "Japan",
+  "JEY": "Jersey",
+  "JOR": "Jordan",
+  "KAZ": "Kazakhstan",
+  "KEN": "Kenya",
+  "KIR": "Kiribati",
+  "PRK": "Korea, Democratic People's Republic of",
+  "KOR": "Korea, Republic of",
+  "KWT": "Kuwait",
+  "KGZ": "Kyrgyzstan",
+  "LAO": "Lao People's Democratic Republic",
+  "LVA": "Latvia",
+  "LBN": "Lebanon",
+  "LSO": "Lesotho",
+  "LBR": "Liberia",
+  "LBY": "Libya",
+  "LIE": "Liechtenstein",
+  "LTU": "Lithuania",
+  "LUX": "Luxembourg",
+  "MAC": "Macao",
+  "MKD": "Macedonia, the former Yugoslav Republic of",
+  "MDG": "Madagascar",
+  "MWI": "Malawi",
+  "MYS": "Malaysia",
+  "MDV": "Maldives",
+  "MLI": "Mali",
+  "MLT": "Malta",
+  "MHL": "Marshall Islands",
+  "MTQ": "Martinique",
+  "MRT": "Mauritania",
+  "MUS": "Mauritius",
+  "MYT": "Mayotte",
+  "MEX": "Mexico",
+  "FSM": "Micronesia, Federated States of",
+  "MDA": "Moldova, Republic of",
+  "MCO": "Monaco",
+  "MNG": "Mongolia",
+  "MNE": "Montenegro",
+  "MSR": "Montserrat",
+  "MAR": "Morocco",
+  "MOZ": "Mozambique",
+  "MMR": "Myanmar",
+  "NAM": "Namibia",
+  "NRU": "Nauru",
+  "NPL": "Nepal",
+  "NLD": "Netherlands",
+  "NCL": "New Caledonia",
+  "NZL": "New Zealand",
+  "NIC": "Nicaragua",
+  "NER": "Niger",
+  "NGA": "Nigeria",
+  "NIU": "Niue",
+  "NFK": "Norfolk Island",
+  "MNP": "Northern Mariana Islands",
+  "NOR": "Norway",
+  "OMN": "Oman",
+  "PAK": "Pakistan",
+  "PLW": "Palau",
+  "PSE": "Palestine, State of",
+  "PAN": "Panama",
+  "PNG": "Papua New Guinea",
+  "PRY": "Paraguay",
+  "PER": "Peru",
+  "PHL": "Philippines",
+  "PCN": "Pitcairn",
+  "POL": "Poland",
+  "PRT": "Portugal",
+  "PRI": "Puerto Rico",
+  "QAT": "Qatar",
+  "REU": "Réunion",
+  "ROU": "Romania",
+  "RUS": "Russian Federation",
+  "RWA": "Rwanda",
+  "BLM": "Saint Barthélemy",
+  "SHN": "Saint Helena, Ascension and Tristan da Cunha",
+  "KNA": "Saint Kitts and Nevis",
+  "LCA": "Saint Lucia",
+  "MAF": "Saint Martin (French part)",
+  "SPM": "Saint Pierre and Miquelon",
+  "VCT": "Saint Vincent and the Grenadines",
+  "WSM": "Samoa",
+  "SMR": "San Marino",
+  "STP": "Sao Tome and Principe",
+  "SAU": "Saudi Arabia",
+  "SEN": "Senegal",
+  "SRB": "Serbia",
+  "SYC": "Seychelles",
+  "SLE": "Sierra Leone",
+  "SGP": "Singapore",
+  "SXM": "Sint Maarten (Dutch part)",
+  "SVK": "Slovakia",
+  "SVN": "Slovenia",
+  "SLB": "Solomon Islands",
+  "SOM": "Somalia",
+  "ZAF": "South Africa",
+  "SGS": "South Georgia and the South Sandwich Islands",
+  "SSD": "South Sudan",
+  "ESP": "Spain",
+  "LKA": "Sri Lanka",
+  "SDN": "Sudan",
+  "SUR": "Suriname",
+  "SJM": "Svalbard and Jan Mayen",
+  "SWZ": "Swaziland",
+  "SWE": "Sweden",
+  "CHE": "Switzerland",
+  "SYR": "Syrian Arab Republic",
+  "TWN": "Taiwan, Province of China",
+  "TJK": "Tajikistan",
+  "TZA": "Tanzania, United Republic of",
+  "THA": "Thailand",
+  "TLS": "Timor-Leste",
+  "TGO": "Togo",
+  "TKL": "Tokelau",
+  "TON": "Tonga",
+  "TTO": "Trinidad and Tobago",
+  "TUN": "Tunisia",
+  "TUR": "Turkey",
+  "TKM": "Turkmenistan",
+  "TCA": "Turks and Caicos Islands",
+  "TUV": "Tuvalu",
+  "UGA": "Uganda",
+  "UKR": "Ukraine",
+  "ARE": "United Arab Emirates",
+  "GBR": "United Kingdom",
+  "USA": "United States",
+  "UMI": "United States Minor Outlying Islands",
+  "URY": "Uruguay",
+  "UZB": "Uzbekistan",
+  "VUT": "Vanuatu",
+  "VEN": "Venezuela, Bolivarian Republic of",
+  "VNM": "Viet Nam",
+  "VGB": "Virgin Islands, British",
+  "VIR": "Virgin Islands, U.S.",
+  "WLF": "Wallis and Futuna",
+  "ESH": "Western Sahara",
+  "YEM": "Yemen",
+  "ZMB": "Zambia",
+  "ZWE": "Zimbabwe"
+}
+
+},{}],184:[function(require,module,exports){
+'use strict';
+
+var Reflux = require('reflux');
+
+var iso3 = require('../iso3.json'),
+    data = require('../data.json');
+
+var actions = require('../actions/actions.js');
+
+module.exports = Reflux.createStore({
+  init: function init() {
+    this.listenTo(actions.filterList, this.filter);
+  },
+  getInitialState: function getInitialState() {
+    var countries = data.map(function (country) {
+      return Object.keys(country)[0];
+    });
+    this.data = Object.keys(iso3).filter(function (code) {
+      return countries.indexOf(iso3[code]) > -1;
+    });
+    return this.data;
+  },
+  filter: function filter(input) {
+    this.trigger(this.data.filter(function (country) {
+      input = input.toLowerCase();
+      return iso3[country].toLowerCase().indexOf(input) > -1;
+    }));
+  }
+});
+
+},{"../actions/actions.js":178,"../data.json":182,"../iso3.json":183,"reflux":158}],185:[function(require,module,exports){
 'use strict';
 
 var Reflux = require('reflux');
@@ -24789,4 +25130,4 @@ module.exports = Reflux.createStore({
   }
 });
 
-},{"../actions/actions.js":178,"../data.json":181,"reflux":158}]},{},[1]);
+},{"../actions/actions.js":178,"../data.json":182,"reflux":158}]},{},[1]);

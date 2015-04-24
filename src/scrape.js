@@ -17,12 +17,14 @@ function scrape (url) {
       rows.shift();
 
       var output = {};
-      var iso = JSON.parse(fs.readFileSync(path.join(__dirname, 'iso.json')));
+      var countries = [];
+      var iso = JSON.parse(fs.readFileSync(path.join(__dirname, 'iso2.json')));
       
       rows.forEach(function(row) {
         var code = row[0].substring(0,2).toUpperCase();
         if (!(iso[code] in output)) {
           output[iso[code]] = [];
+          countries.push(code.toUpperCase());
         }
         var obj = {};
         obj['name'] = row[0].split('.')[0];
@@ -39,6 +41,7 @@ function scrape (url) {
       }
 
       fs.writeFileSync(path.join(__dirname, './data.json'), JSON.stringify(out, null, 2));
+      fs.writeFileSync(path.join(__dirname, './map.json'), JSON.stringify(countries, null, 2));      
       console.log('Done scraping. Data cached at /src/data.json');
     }
   });

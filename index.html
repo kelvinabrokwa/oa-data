@@ -3,15 +3,17 @@
   <title>OA Download Portal</title>
   <link href='css/base.css' rel='stylesheet' />
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="lib/d3.min.js"></script>
+  <script src="lib/topojson.min.js"></script>
+  <script src="lib/datamaps.world.min.js"></script>
 </head>
 <body>
   <div class="container">
     <div id="info">
       <p>
-        <h1>OpenAddresses Download Portal</h1>
+        <h1 class='center'>OpenAddresses Download Portal</h1>
       </p>
-      <p>Scrapes data from <a href="http://data.openaddresses.io/">data.openaddresses.io</a> and makes it prettier and searcheable (by source name and by country)</p>
-      <p>Only inludes sources with CSVs</p>
+      <p class='center'>Scrapes <a href="http://data.openaddresses.io/">data.openaddresses.io</a> and makes it prettier and searcheable (by source name and by country). Only includes sources with CSVs.</p>
     </div>
     <div id="app"></div>
   </div>
