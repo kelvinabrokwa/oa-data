@@ -1,5 +1,8 @@
 #info {
   width: 100%;
+}
+
+h1 {
   text-align: center;
 }
 
@@ -25,5 +28,5 @@ h2#country {
   margin-bottom: 30px;
 }
 
-.name-col { width: 60%; }
-.dl-col { width: 20%; }
+.name-col { width: 70%; }
+.dl-col { width: 30%; }
