@@ -5,6 +5,7 @@ A better way to download OpenAddresses Data.
 Search by source name or country.
 
 To run locally: 
+
 ```
 git clone https://github.com/kelvinabrokwa/oa-data.git
 npm i
