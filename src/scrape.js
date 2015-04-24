@@ -14,9 +14,10 @@ function scrape (url) {
         return ($(this).children().length === 6);
       });
       rows.each(function (r) {
-        var name = $(this).children().first().text().replace(/[\r\n]/g,'').trim();
-        var obj = {};
+        if (! $(this).children(':nth-child(4)').children('a').attr('href')) 
+          return;
         var row = $(this).children();
+        var obj = {};
         var count = 0;
         row.each(function (child) {
           switch (count) {
@@ -43,7 +44,33 @@ function scrape (url) {
         data.push(obj);
       });
       data.shift();
-      fs.writeFileSync(path.join(__dirname, './data.json'), JSON.stringify(data, null, 2));
+      var iso = JSON.parse(fs.readFileSync(path.join(__dirname, 'iso.json')))
+      data = data.map(function(item) {
+         var code = item['name'].substring(0,2).toUpperCase();
+         item['country'] = iso[code];
+        return item;
+      });
+
+      var sorted = {};
+
+      data.map(function(i) {
+        return i['country'];
+      }).sort().filter(function(elem, idx, arr) {
+        return (elem !== arr[idx - 1]);
+      }).forEach(function(country) {
+        sorted[country] = data.filter(function(i) {
+          return i['country'] === country;
+        });
+      });
+
+      var final = [];
+      for (var key in sorted) {
+        var out = {}
+        out[key] = sorted[key]
+        final.push(out);
+      }
+      
+      fs.writeFileSync(path.join(__dirname, './data.json'), JSON.stringify(final, null, 2));
       console.log('Done scraping. Data cached at /src/data.json')
     }
   });
@@ -51,5 +78,3 @@ function scrape (url) {
 
 var url = 'http://data.openaddresses.io/runs/1429682917.812/index.html';
 scrape(url);
-
-module.exports = scrape;
