@@ -12,7 +12,7 @@ npm i
 npm start
 ```
 
-The server will be listening at http://localhost:3000
+The server will be listening at `http://localhost:3000`
 
 ### To do
 

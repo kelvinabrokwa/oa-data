@@ -28,19 +28,17 @@ var Table = React.createClass({
         <Row
           json={r.json}
           name={r.name}
-          type={r.type}
           csv={r.csv}
         />
       );
     });
     return (
       <div>
-        <h3 id='country'>{this.props.country}</h3>
+        <h2 id='country'>{this.props.country}</h2>
         <table>
           <thead>
             <tr>
               <th className='name-col'>Name</th>
-              <th className='type-col'>Type</th>
               <th className='dl-col'>Download</th>
             </tr>
           </thead>
@@ -61,10 +59,7 @@ var Row = React.createClass({
           <a href={this.props.json}>{this.props.name}</a>
         </td>
         <td>
-          {this.props.type}
-        </td>
-        <td>
-          <a href={this.props.csv}>download</a>
+          <a href={this.props.csv}>zip</a>
         </td>
       </tr>
     )

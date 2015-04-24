@@ -24,11 +24,10 @@ input[type="text"] {
   margin-top: 50px;
 }
 
-h3#country {
+h2#country {
   margin-top: 70px;
   margin-bottom: 30px;
 }
 
 .name-col { width: 60%; }
-.type-col { width: 20%; }
 .dl-col { width: 20%; }
