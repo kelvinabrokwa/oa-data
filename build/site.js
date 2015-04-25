@@ -21296,7 +21296,7 @@ module.exports=[
     "Argentina": [
       {
         "name": "ar-ba-buenos_aires",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20141214/ar-ba-buenos_aires",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/ar-ba-buenos_aires.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/ar-ba-buenos_aires.json"
       }
     ]
@@ -21305,22 +21305,22 @@ module.exports=[
     "Australia": [
       {
         "name": "au-queensland",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20141127/au-queensland.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/au-queensland.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/au-queensland.json"
       },
       {
         "name": "au-tas-launceston",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150413/au-tas-launceston.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/au-tas-launceston.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/au-tas-launceston.json"
       },
       {
         "name": "au-tasmania",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20141127/au-tasmania.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/au-tasmania.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/au-tasmania.json"
       },
       {
         "name": "au-victoria",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20141127/au-victoria.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/au-victoria.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/au-victoria.json"
       }
     ]
@@ -21329,17 +21329,17 @@ module.exports=[
     "Belgium": [
       {
         "name": "be-flanders",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/be-flanders.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/be-flanders.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/be-flanders.json"
       },
       {
         "name": "be-wa-brussels-fr",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20150106/be-wa-brussels-fr.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/be-wa-brussels-fr.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/be-wa-brussels-fr.json"
       },
       {
         "name": "be-wa-brussels-nl",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20150106/be-wa-brussels-nl.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/be-wa-brussels-nl.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/be-wa-brussels-nl.json"
       }
     ]
@@ -21348,167 +21348,167 @@ module.exports=[
     "Canada": [
       {
         "name": "ca-ab-banff",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20141110/ca-ab-banff",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/ca-ab-banff.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/ca-ab-banff.json"
       },
       {
         "name": "ca-ab-calgary",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150417/ca-ab-calgary.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/ca-ab-calgary.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/ca-ab-calgary.json"
       },
       {
         "name": "ca-ab-grande_prairie",
-        "csv": "http://s3.amazonaws.com/openaddresses/20140804/ca-ab-grande_prairie.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/ca-ab-grande_prairie.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/ca-ab-grande_prairie.json"
       },
       {
         "name": "ca-ab-strathcona-county",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20141116/ca-ab-strathcona-county.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/ca-ab-strathcona-county.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/ca-ab-strathcona-county.json"
       },
       {
         "name": "ca-bc-kamloops",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20150116/ca-bc-kamloops.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/ca-bc-kamloops.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/ca-bc-kamloops.json"
       },
       {
         "name": "ca-bc-kelowna",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/ca-bc-kelowna.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/ca-bc-kelowna.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/ca-bc-kelowna.json"
       },
       {
         "name": "ca-bc-langley",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150402/ca-bc-langley.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/ca-bc-langley.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/ca-bc-langley.json"
       },
       {
         "name": "ca-bc-nanaimo",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20150123/ca-bc-nanaimo.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/ca-bc-nanaimo.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/ca-bc-nanaimo.json"
       },
       {
         "name": "ca-bc-north_cowichan",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150417/ca-bc-north_cowichan.ksh",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/ca-bc-north_cowichan.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/ca-bc-north_cowichan.json"
       },
       {
         "name": "ca-bc-north_vancouver",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150420/ca-bc-north_vancouver.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/ca-bc-north_vancouver.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/ca-bc-north_vancouver.json"
       },
       {
         "name": "ca-bc-prince_george",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150402/ca-bc-prince_george.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/ca-bc-prince_george.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/ca-bc-prince_george.json"
       },
       {
         "name": "ca-bc-surrey",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/ca-bc-surrey.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/ca-bc-surrey.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/ca-bc-surrey.json"
       },
       {
         "name": "ca-bc-vancouver",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150311/ca-bc-vancouver.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/ca-bc-vancouver.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/ca-bc-vancouver.json"
       },
       {
         "name": "ca-bc-vernon",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150417/ca-bc-vernon.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/ca-bc-vernon.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/ca-bc-vernon.json"
       },
       {
         "name": "ca-bc-victoria",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/ca-bc-victoria.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/ca-bc-victoria.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/ca-bc-victoria.json"
       },
       {
         "name": "ca-bc-west_kelowna",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150410/ca-bc-west_kelowna.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/ca-bc-west_kelowna.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/ca-bc-west_kelowna.json"
       },
       {
         "name": "ca-nb",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150209/ca-nb.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/ca-nb.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/ca-nb.json"
       },
       {
         "name": "ca-ns-halifax",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150406/ca-ns-halifax.html",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/ca-ns-halifax.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/ca-ns-halifax.json"
       },
       {
         "name": "ca-on-burlington",
-        "csv": "http://s3.amazonaws.com/openaddresses/ca-on-burlington.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/ca-on-burlington.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/ca-on-burlington.json"
       },
       {
         "name": "ca-on-guelph",
-        "csv": "http://s3.amazonaws.com/openaddresses/20140613/ca-on-guelph.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/ca-on-guelph.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/ca-on-guelph.json"
       },
       {
         "name": "ca-on-hamilton",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150402/ca-on-hamilton.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/ca-on-hamilton.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/ca-on-hamilton.json"
       },
       {
         "name": "ca-on-kitchener",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20141116/ca-on-kitchener.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/ca-on-kitchener.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/ca-on-kitchener.json"
       },
       {
         "name": "ca-on-oakville",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20141110/ca-on-oakville.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/ca-on-oakville.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/ca-on-oakville.json"
       },
       {
         "name": "ca-on-ottawa",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150410/ca-on-ottawa.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/ca-on-ottawa.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/ca-on-ottawa.json"
       },
       {
         "name": "ca-on-toronto",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150402/ca-on-toronto.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/ca-on-toronto.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/ca-on-toronto.json"
       },
       {
         "name": "ca-on-waterloo",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150402/ca-on-waterloo.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/ca-on-waterloo.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/ca-on-waterloo.json"
       },
       {
         "name": "ca-on-welland",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/ca-on-welland.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/ca-on-welland.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/ca-on-welland.json"
       },
       {
         "name": "ca-on-windsor",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150410/ca-on-windsor.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/ca-on-windsor.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/ca-on-windsor.json"
       },
       {
         "name": "ca-pe",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20141128/ca-pe.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/ca-pe.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/ca-pe.json"
       },
       {
         "name": "ca-qc-montreal",
-        "csv": "http://s3.amazonaws.com/openaddresses-cfa/20141030/ca-qc-montreal.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/ca-qc-montreal.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/ca-qc-montreal.json"
       },
       {
         "name": "ca-sk-regina",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150402/ca-sk-regina.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/ca-sk-regina.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/ca-sk-regina.json"
       },
       {
         "name": "ca-sk-saskatoon",
-        "csv": "http://s3.amazonaws.com/openaddresses-cfa/20141030/ca-sk-saskatoon",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/ca-sk-saskatoon.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/ca-sk-saskatoon.json"
       },
       {
         "name": "ca-yk-whitehorse",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150415/ca-yk-whitehorse.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/ca-yk-whitehorse.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/ca-yk-whitehorse.json"
       }
     ]
@@ -21517,22 +21517,22 @@ module.exports=[
     "Germany": [
       {
         "name": "de-berlin",
-        "csv": "http://s3.amazonaws.com/openaddresses-cfa/20141030/de-berlin.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/de-berlin.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/de-berlin.json"
       },
       {
         "name": "de-he-city_of_frankfurtammain",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20141127/de-he-city_of_frankfurtammain",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/de-he-city_of_frankfurtammain.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/de-he-city_of_frankfurtammain.json"
       },
       {
         "name": "de-mv-city_of_rostock",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/de-mv-city_of_rostock.html",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/de-mv-city_of_rostock.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/de-mv-city_of_rostock.json"
       },
       {
         "name": "de-nw-city_of_cologne",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20141127/de-nw-city_of_cologne",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/de-nw-city_of_cologne.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/de-nw-city_of_cologne.json"
       }
     ]
@@ -21541,7 +21541,7 @@ module.exports=[
     "Denmark": [
       {
         "name": "dk",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/dk.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/dk.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/dk.json"
       }
     ]
@@ -21550,22 +21550,22 @@ module.exports=[
     "Spain": [
       {
         "name": "es-25829",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20150102/es-25829.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/es-25829.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/es-25829.json"
       },
       {
         "name": "es-25830",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20150102/es-25830.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/es-25830.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/es-25830.json"
       },
       {
         "name": "es-25831",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20150102/es-25831.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/es-25831.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/es-25831.json"
       },
       {
         "name": "es-32628",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20150102/es-32628.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/es-32628.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/es-32628.json"
       }
     ]
@@ -21574,7 +21574,7 @@ module.exports=[
     "Finland": [
       {
         "name": "fi-uusimaa",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150410/fi-uusimaa.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/fi-uusimaa.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/fi-uusimaa.json"
       }
     ]
@@ -21583,7 +21583,7 @@ module.exports=[
     "France": [
       {
         "name": "fr-bano",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150402/fr-bano.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/fr-bano.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/fr-bano.json"
       }
     ]
@@ -21592,7 +21592,7 @@ module.exports=[
     "Iceland": [
       {
         "name": "is",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150206/is.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/is.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/is.json"
       }
     ]
@@ -21601,7 +21601,7 @@ module.exports=[
     "Italy": [
       {
         "name": "it-er-rimini",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20141128/it-er-rimini.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/it-er-rimini.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/it-er-rimini.json"
       }
     ]
@@ -21610,237 +21610,237 @@ module.exports=[
     "Japan": [
       {
         "name": "jp-aichi",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20141127/jp-aichi.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/jp-aichi.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/jp-aichi.json"
       },
       {
         "name": "jp-akita",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20141127/jp-akita.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/jp-akita.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/jp-akita.json"
       },
       {
         "name": "jp-aomori",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20141127/jp-aomori.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/jp-aomori.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/jp-aomori.json"
       },
       {
         "name": "jp-chiba",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20141127/jp-chiba.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/jp-chiba.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/jp-chiba.json"
       },
       {
         "name": "jp-ehime",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20141127/jp-ehime.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/jp-ehime.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/jp-ehime.json"
       },
       {
         "name": "jp-fukui",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20141127/jp-fukui.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/jp-fukui.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/jp-fukui.json"
       },
       {
         "name": "jp-fukuoka",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20141127/jp-fukuoka.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/jp-fukuoka.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/jp-fukuoka.json"
       },
       {
         "name": "jp-fukushima",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20141127/jp-fukushima.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/jp-fukushima.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/jp-fukushima.json"
       },
       {
         "name": "jp-gifu",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20141127/jp-gifu.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/jp-gifu.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/jp-gifu.json"
       },
       {
         "name": "jp-gunma",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20141127/jp-gunma.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/jp-gunma.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/jp-gunma.json"
       },
       {
         "name": "jp-hiroshima",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20141127/jp-hiroshima.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/jp-hiroshima.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/jp-hiroshima.json"
       },
       {
         "name": "jp-hokkaido",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20141127/jp-hokkaido.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/jp-hokkaido.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/jp-hokkaido.json"
       },
       {
         "name": "jp-hyogo",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20141127/jp-hyogo.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/jp-hyogo.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/jp-hyogo.json"
       },
       {
         "name": "jp-ibaraki",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20141127/jp-ibaraki.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/jp-ibaraki.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/jp-ibaraki.json"
       },
       {
         "name": "jp-ishikawa",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20141127/jp-ishikawa.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/jp-ishikawa.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/jp-ishikawa.json"
       },
       {
         "name": "jp-iwate",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20141127/jp-iwate.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/jp-iwate.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/jp-iwate.json"
       },
       {
         "name": "jp-kagawa",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20141127/jp-kagawa.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/jp-kagawa.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/jp-kagawa.json"
       },
       {
         "name": "jp-kagoshima",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20141127/jp-kagoshima.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/jp-kagoshima.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/jp-kagoshima.json"
       },
       {
         "name": "jp-kanagawa",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20141127/jp-kanagawa.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/jp-kanagawa.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/jp-kanagawa.json"
       },
       {
         "name": "jp-kochi",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20141127/jp-kochi.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/jp-kochi.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/jp-kochi.json"
       },
       {
         "name": "jp-kumamoto",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20141127/jp-kumamoto.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/jp-kumamoto.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/jp-kumamoto.json"
       },
       {
         "name": "jp-kyoto",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20141127/jp-kyoto.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/jp-kyoto.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/jp-kyoto.json"
       },
       {
         "name": "jp-mie",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20141127/jp-mie.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/jp-mie.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/jp-mie.json"
       },
       {
         "name": "jp-miyagi",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20141127/jp-miyagi.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/jp-miyagi.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/jp-miyagi.json"
       },
       {
         "name": "jp-miyazaki",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20141127/jp-miyazaki.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/jp-miyazaki.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/jp-miyazaki.json"
       },
       {
         "name": "jp-nagano",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20141127/jp-nagano.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/jp-nagano.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/jp-nagano.json"
       },
       {
         "name": "jp-nagasaki",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20141127/jp-nagasaki.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/jp-nagasaki.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/jp-nagasaki.json"
       },
       {
         "name": "jp-nara",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20141127/jp-nara.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/jp-nara.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/jp-nara.json"
       },
       {
         "name": "jp-niigata",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20141127/jp-niigata.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/jp-niigata.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/jp-niigata.json"
       },
       {
         "name": "jp-oita",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20141127/jp-oita.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/jp-oita.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/jp-oita.json"
       },
       {
         "name": "jp-okayama",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20141127/jp-okayama.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/jp-okayama.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/jp-okayama.json"
       },
       {
         "name": "jp-okinawa",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20141127/jp-okinawa.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/jp-okinawa.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/jp-okinawa.json"
       },
       {
         "name": "jp-osaka",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20141127/jp-osaka.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/jp-osaka.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/jp-osaka.json"
       },
       {
         "name": "jp-saga",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20141127/jp-saga.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/jp-saga.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/jp-saga.json"
       },
       {
         "name": "jp-saitama",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20141127/jp-saitama.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/jp-saitama.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/jp-saitama.json"
       },
       {
         "name": "jp-shiga",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20141127/jp-shiga.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/jp-shiga.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/jp-shiga.json"
       },
       {
         "name": "jp-shimane",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20141127/jp-shimane.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/jp-shimane.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/jp-shimane.json"
       },
       {
         "name": "jp-shizuoka",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20141127/jp-shizuoka.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/jp-shizuoka.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/jp-shizuoka.json"
       },
       {
         "name": "jp-tochigi",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20141127/jp-tochigi.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/jp-tochigi.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/jp-tochigi.json"
       },
       {
         "name": "jp-tokushima",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20141127/jp-tokushima.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/jp-tokushima.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/jp-tokushima.json"
       },
       {
         "name": "jp-tokyo",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20141127/jp-tokyo.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/jp-tokyo.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/jp-tokyo.json"
       },
       {
         "name": "jp-tottori",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20141127/jp-tottori.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/jp-tottori.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/jp-tottori.json"
       },
       {
         "name": "jp-toyama",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20141127/jp-toyama.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/jp-toyama.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/jp-toyama.json"
       },
       {
         "name": "jp-wakayama",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20141127/jp-wakayama.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/jp-wakayama.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/jp-wakayama.json"
       },
       {
         "name": "jp-yamagata",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20141127/jp-yamagata.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/jp-yamagata.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/jp-yamagata.json"
       },
       {
         "name": "jp-yamaguchi",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20141127/jp-yamaguchi.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/jp-yamaguchi.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/jp-yamaguchi.json"
       },
       {
         "name": "jp-yamanashi",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20141127/jp-yamanashi.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/jp-yamanashi.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/jp-yamanashi.json"
       }
     ]
@@ -21849,122 +21849,122 @@ module.exports=[
     "Korea, Republic of": [
       {
         "name": "kr-seoul-chongnogu-old",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20150113/kr-seoul-chongnogu-old.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/kr-seoul-chongnogu-old.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/kr-seoul-chongnogu-old.json"
       },
       {
         "name": "kr-seoul-chunggu-old",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20150113/kr-seoul-chunggu-old.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/kr-seoul-chunggu-old.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/kr-seoul-chunggu-old.json"
       },
       {
         "name": "kr-seoul-chungnanggu-old",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20150113/kr-seoul-chungnanggu-old.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/kr-seoul-chungnanggu-old.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/kr-seoul-chungnanggu-old.json"
       },
       {
         "name": "kr-seoul-kangbukku-old",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20150113/kr-seoul-kangbukku-old.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/kr-seoul-kangbukku-old.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/kr-seoul-kangbukku-old.json"
       },
       {
         "name": "kr-seoul-kangdonggu-old",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20150113/kr-seoul-kangdonggu-old.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/kr-seoul-kangdonggu-old.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/kr-seoul-kangdonggu-old.json"
       },
       {
         "name": "kr-seoul-kangnamgu-old",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20150113/kr-seoul-kangnamgu-old.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/kr-seoul-kangnamgu-old.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/kr-seoul-kangnamgu-old.json"
       },
       {
         "name": "kr-seoul-kangseogu-old",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20150116/kr-seoul-kangseogu-old.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/kr-seoul-kangseogu-old.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/kr-seoul-kangseogu-old.json"
       },
       {
         "name": "kr-seoul-keumcheongu-old",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20150113/kr-seoul-keumcheongu-old.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/kr-seoul-keumcheongu-old.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/kr-seoul-keumcheongu-old.json"
       },
       {
         "name": "kr-seoul-kurogu-old",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20150113/kr-seoul-kurogu-old.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/kr-seoul-kurogu-old.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/kr-seoul-kurogu-old.json"
       },
       {
         "name": "kr-seoul-kwanakku-old",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20150113/kr-seoul-kwanakku-old.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/kr-seoul-kwanakku-old.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/kr-seoul-kwanakku-old.json"
       },
       {
         "name": "kr-seoul-kwangjingu-old",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20150113/kr-seoul-kwangjingu-old.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/kr-seoul-kwangjingu-old.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/kr-seoul-kwangjingu-old.json"
       },
       {
         "name": "kr-seoul-mapogu-old",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20150113/kr-seoul-mapogu-old.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/kr-seoul-mapogu-old.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/kr-seoul-mapogu-old.json"
       },
       {
         "name": "kr-seoul-noweongu-old",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20150113/kr-seoul-noweongu-old.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/kr-seoul-noweongu-old.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/kr-seoul-noweongu-old.json"
       },
       {
         "name": "kr-seoul-seochogu-old",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20150113/kr-seoul-seochogu-old.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/kr-seoul-seochogu-old.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/kr-seoul-seochogu-old.json"
       },
       {
         "name": "kr-seoul-seodaemungu-old",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20150113/kr-seoul-seodaemungu-old.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/kr-seoul-seodaemungu-old.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/kr-seoul-seodaemungu-old.json"
       },
       {
         "name": "kr-seoul-seongbukku-old",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20150113/kr-seoul-seongbukku-old.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/kr-seoul-seongbukku-old.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/kr-seoul-seongbukku-old.json"
       },
       {
         "name": "kr-seoul-seongdonggu-old",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20150113/kr-seoul-seongdonggu-old.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/kr-seoul-seongdonggu-old.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/kr-seoul-seongdonggu-old.json"
       },
       {
         "name": "kr-seoul-songpagu-old",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20150113/kr-seoul-songpagu-old.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/kr-seoul-songpagu-old.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/kr-seoul-songpagu-old.json"
       },
       {
         "name": "kr-seoul-tobonggu-old",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20150113/kr-seoul-tobonggu-old.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/kr-seoul-tobonggu-old.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/kr-seoul-tobonggu-old.json"
       },
       {
         "name": "kr-seoul-tongdaemungu-old",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20150113/kr-seoul-tongdaemungu-old.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/kr-seoul-tongdaemungu-old.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/kr-seoul-tongdaemungu-old.json"
       },
       {
         "name": "kr-seoul-tongjakku-old",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20150113/kr-seoul-tongjakku-old.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/kr-seoul-tongjakku-old.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/kr-seoul-tongjakku-old.json"
       },
       {
         "name": "kr-seoul-yangcheongu-old",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20150113/kr-seoul-yangcheongu-old.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/kr-seoul-yangcheongu-old.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/kr-seoul-yangcheongu-old.json"
       },
       {
         "name": "kr-seoul-yeongdeungpogu-old",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20150113/kr-seoul-yeongdeungpogu-old.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/kr-seoul-yeongdeungpogu-old.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/kr-seoul-yeongdeungpogu-old.json"
       },
       {
         "name": "kr-seoul-yongsangu-old",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20150113/kr-seoul-yongsangu-old.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/kr-seoul-yongsangu-old.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/kr-seoul-yongsangu-old.json"
       }
     ]
@@ -21973,7 +21973,7 @@ module.exports=[
     "Netherlands": [
       {
         "name": "nl",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20141230/nl.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/nl.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/nl.json"
       }
     ]
@@ -21982,7 +21982,7 @@ module.exports=[
     "Norway": [
       {
         "name": "no",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20150109/no.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/no.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/no.json"
       }
     ]
@@ -21991,7 +21991,7 @@ module.exports=[
     "New Zealand": [
       {
         "name": "nz",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20150113/nz.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/nz.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/nz.json"
       }
     ]
@@ -22000,82 +22000,82 @@ module.exports=[
     "Poland": [
       {
         "name": "pl-dolnoslaskie",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150318/pl-dolnoslaskie.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/pl-dolnoslaskie.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/pl-dolnoslaskie.json"
       },
       {
         "name": "pl-kujawsko-pomorskie",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150318/pl-kujawsko-pomorskie.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/pl-kujawsko-pomorskie.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/pl-kujawsko-pomorskie.json"
       },
       {
         "name": "pl-lodzkie",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150420/pl-lodzkie.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/pl-lodzkie.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/pl-lodzkie.json"
       },
       {
         "name": "pl-lubelskie",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150318/pl-lubelskie.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/pl-lubelskie.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/pl-lubelskie.json"
       },
       {
         "name": "pl-lubuskie",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150318/pl-lubuskie.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/pl-lubuskie.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/pl-lubuskie.json"
       },
       {
         "name": "pl-malopolski",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150318/pl-malopolski.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/pl-malopolski.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/pl-malopolski.json"
       },
       {
         "name": "pl-mazowieckie",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150318/pl-mazowieckie.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/pl-mazowieckie.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/pl-mazowieckie.json"
       },
       {
         "name": "pl-opolskie",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150318/pl-opolskie.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/pl-opolskie.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/pl-opolskie.json"
       },
       {
         "name": "pl-podkarpackie",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150318/pl-podkarpackie.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/pl-podkarpackie.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/pl-podkarpackie.json"
       },
       {
         "name": "pl-podlaskie",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150318/pl-podlaskie.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/pl-podlaskie.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/pl-podlaskie.json"
       },
       {
         "name": "pl-pomorskie",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150318/pl-pomorskie.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/pl-pomorskie.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/pl-pomorskie.json"
       },
       {
         "name": "pl-slaskie",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150420/pl-slaskie.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/pl-slaskie.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/pl-slaskie.json"
       },
       {
         "name": "pl-swietokrzyskie",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150318/pl-swietokrzyskie.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/pl-swietokrzyskie.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/pl-swietokrzyskie.json"
       },
       {
         "name": "pl-warminsko-mazurskie",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150318/pl-warminsko-mazurskie.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/pl-warminsko-mazurskie.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/pl-warminsko-mazurskie.json"
       },
       {
         "name": "pl-wielkopolskie",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150318/pl-wielkopolskie.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/pl-wielkopolskie.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/pl-wielkopolskie.json"
       },
       {
         "name": "pl-zachodniopomorskie",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150318/pl-zachodniopomorskie.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/pl-zachodniopomorskie.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/pl-zachodniopomorskie.json"
       }
     ]
@@ -22084,2722 +22084,2722 @@ module.exports=[
     "United States": [
       {
         "name": "us-ak-anchorage",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150420/us-ak-anchorage.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ak-anchorage.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ak-anchorage.json"
       },
       {
         "name": "us-ak-matanuska_susitna_borough",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150402/us-ak-matanuska_susitna_borough.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ak-matanuska_susitna_borough.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ak-matanuska_susitna_borough.json"
       },
       {
         "name": "us-al-calhoun",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-al-calhoun.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-al-calhoun.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-al-calhoun.json"
       },
       {
         "name": "us-al-montgomery",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150316/us-al-montgomery.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-al-montgomery.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-al-montgomery.json"
       },
       {
         "name": "us-al-tuscaloosa",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150413/us-al-tuscaloosa.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-al-tuscaloosa.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-al-tuscaloosa.json"
       },
       {
         "name": "us-ar",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150225/us-ar.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ar.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ar.json"
       },
       {
         "name": "us-az-glendale",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20141203/us-az-glendale",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-az-glendale.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-az-glendale.json"
       },
       {
         "name": "us-az-mesa",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150420/us-az-mesa.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-az-mesa.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-az-mesa.json"
       },
       {
         "name": "us-ca-alameda_county",
-        "csv": "http://s3.amazonaws.com/openaddresses-cfa/20141030/us-ca-alameda_county.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ca-alameda_county.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ca-alameda_county.json"
       },
       {
         "name": "us-ca-amador",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-ca-amador.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ca-amador.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ca-amador.json"
       },
       {
         "name": "us-ca-bakersfield",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150405/us-ca-bakersfield.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ca-bakersfield.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ca-bakersfield.json"
       },
       {
         "name": "us-ca-berkeley",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20150123/us-ca-berkeley.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ca-berkeley.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ca-berkeley.json"
       },
       {
         "name": "us-ca-butte_county",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20141203/us-ca-butte_county.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ca-butte_county.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ca-butte_county.json"
       },
       {
         "name": "us-ca-carson",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150417/us-ca-carson.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ca-carson.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ca-carson.json"
       },
       {
         "name": "us-ca-contra_costa_county",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150405/us-ca-contra_costa_county.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ca-contra_costa_county.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ca-contra_costa_county.json"
       },
       {
         "name": "us-ca-el_dorado_county",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20141204/us-ca-el_dorado_county.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ca-el_dorado_county.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ca-el_dorado_county.json"
       },
       {
         "name": "us-ca-fresno",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150420/us-ca-fresno.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ca-fresno.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ca-fresno.json"
       },
       {
         "name": "us-ca-kern",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-ca-kern.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ca-kern.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ca-kern.json"
       },
       {
         "name": "us-ca-lake_county",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20141214/us-ca-lake_county.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ca-lake_county.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ca-lake_county.json"
       },
       {
         "name": "us-ca-los_angeles_county",
-        "csv": "http://s3.amazonaws.com/openaddresses/us-ca-los_angeles.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ca-los_angeles_county.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ca-los_angeles_county.json"
       },
       {
         "name": "us-ca-madera_county",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20150113/us-ca-madera_county.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ca-madera_county.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ca-madera_county.json"
       },
       {
         "name": "us-ca-marin_county",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-ca-marin_county.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ca-marin_county.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ca-marin_county.json"
       },
       {
         "name": "us-ca-monterey_county",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150320/us-ca-monterey_county.geojson",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ca-monterey_county.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ca-monterey_county.json"
       },
       {
         "name": "us-ca-napa",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150415/us-ca-napa.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ca-napa.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ca-napa.json"
       },
       {
         "name": "us-ca-nevada_county",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150402/us-ca-nevada_county.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ca-nevada_county.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ca-nevada_county.json"
       },
       {
         "name": "us-ca-orange",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150316/us-ca-orange.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ca-orange.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ca-orange.json"
       },
       {
         "name": "us-ca-orange_county",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20150116/us-ca-orange_county.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ca-orange_county.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ca-orange_county.json"
       },
       {
         "name": "us-ca-palo_alto",
-        "csv": "http://s3.amazonaws.com/openaddresses/us-ca-palo_alto",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ca-palo_alto.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ca-palo_alto.json"
       },
       {
         "name": "us-ca-placer_county",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20141214/us-ca-placer_county.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ca-placer_county.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ca-placer_county.json"
       },
       {
         "name": "us-ca-riverside",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150410/us-ca-riverside.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ca-riverside.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ca-riverside.json"
       },
       {
         "name": "us-ca-sacramento_county",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150415/us-ca-sacramento_county.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ca-sacramento_county.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ca-sacramento_county.json"
       },
       {
         "name": "us-ca-san_bernardino_county",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20141127/us-ca-san_bernardino_county.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ca-san_bernardino_county.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ca-san_bernardino_county.json"
       },
       {
         "name": "us-ca-san_diego",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150402/us-ca-san_diego.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ca-san_diego.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ca-san_diego.json"
       },
       {
         "name": "us-ca-san_francisco",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-ca-san_francisco.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ca-san_francisco.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ca-san_francisco.json"
       },
       {
         "name": "us-ca-san_joaquin_county",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20141230/us-ca-san_joaquin_county.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ca-san_joaquin_county.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ca-san_joaquin_county.json"
       },
       {
         "name": "us-ca-san_luis_obispo_county",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20141219/us-ca-san_luis_obispo_county.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ca-san_luis_obispo_county.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ca-san_luis_obispo_county.json"
       },
       {
         "name": "us-ca-san_mateo_county",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-ca-san_mateo_county.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ca-san_mateo_county.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ca-san_mateo_county.json"
       },
       {
         "name": "us-ca-santa_barbara_county",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20150113/us-ca-santa_barbara_county.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ca-santa_barbara_county.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ca-santa_barbara_county.json"
       },
       {
         "name": "us-ca-santa_clara_county",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20141127/us-ca-santa_clara_county.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ca-santa_clara_county.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ca-santa_clara_county.json"
       },
       {
         "name": "us-ca-santa_cruz_county",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20141203/us-ca-santa_cruz_county.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ca-santa_cruz_county.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ca-santa_cruz_county.json"
       },
       {
         "name": "us-ca-shasta_county",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20141205/us-ca-shasta_county.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ca-shasta_county.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ca-shasta_county.json"
       },
       {
         "name": "us-ca-solano_county",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150316/us-ca-solano_county.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ca-solano_county.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ca-solano_county.json"
       },
       {
         "name": "us-ca-sonoma_county",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20141219/us-ca-sonoma_county.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ca-sonoma_county.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ca-sonoma_county.json"
       },
       {
         "name": "us-ca-trinity",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150413/us-ca-trinity.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ca-trinity.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ca-trinity.json"
       },
       {
         "name": "us-ca-ventura_county",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-ca-ventura_county.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ca-ventura_county.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ca-ventura_county.json"
       },
       {
         "name": "us-ca-yuba_county",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20141204/us-ca-yuba_county.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ca-yuba_county.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ca-yuba_county.json"
       },
       {
         "name": "us-co-arapahoe",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-co-arapahoe.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-co-arapahoe.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-co-arapahoe.json"
       },
       {
         "name": "us-co-arvada",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150420/us-co-arvada.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-co-arvada.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-co-arvada.json"
       },
       {
         "name": "us-co-aurora",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150306/us-co-aurora.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-co-aurora.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-co-aurora.json"
       },
       {
         "name": "us-co-boulder",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150417/us-co-boulder.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-co-boulder.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-co-boulder.json"
       },
       {
         "name": "us-co-denver",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-co-denver.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-co-denver.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-co-denver.json"
       },
       {
         "name": "us-co-douglas",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150417/us-co-douglas.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-co-douglas.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-co-douglas.json"
       },
       {
         "name": "us-co-fort_collins",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150420/us-co-fort_collins.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-co-fort_collins.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-co-fort_collins.json"
       },
       {
         "name": "us-co-gilpin",
-        "csv": "http://s3.amazonaws.com/openaddresses/20140804/us-co-gilpin.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-co-gilpin.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-co-gilpin.json"
       },
       {
         "name": "us-co-greeley",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150417/us-co-greeley.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-co-greeley.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-co-greeley.json"
       },
       {
         "name": "us-co-gunnison",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150318/us-co-gunnison.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-co-gunnison.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-co-gunnison.json"
       },
       {
         "name": "us-co-jefferson",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-co-jefferson.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-co-jefferson.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-co-jefferson.json"
       },
       {
         "name": "us-co-larimer",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150410/us-co-larimer.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-co-larimer.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-co-larimer.json"
       },
       {
         "name": "us-co-loveland",
-        "csv": "http://s3.amazonaws.com/openaddresses-cfa/20141030/us-co-loveland.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-co-loveland.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-co-loveland.json"
       },
       {
         "name": "us-co-pueblo",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-co-pueblo.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-co-pueblo.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-co-pueblo.json"
       },
       {
         "name": "us-co-westminster",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-co-westminster.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-co-westminster.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-co-westminster.json"
       },
       {
         "name": "us-ct-city_of_manchester",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-ct-city_of_manchester.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ct-city_of_manchester.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ct-city_of_manchester.json"
       },
       {
         "name": "us-ct-lyme",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150316/us-ct-lyme.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ct-lyme.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ct-lyme.json"
       },
       {
         "name": "us-ct-town_of_groton",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-ct-town_of_groton.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ct-town_of_groton.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ct-town_of_groton.json"
       },
       {
         "name": "us-ct-watertown",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150316/us-ct-watertown.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ct-watertown.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ct-watertown.json"
       },
       {
         "name": "us-dc",
-        "csv": "http://s3.amazonaws.com/openaddresses/us-dc.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-dc.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-dc.json"
       },
       {
         "name": "us-fl-bay",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150420/us-fl-bay.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-fl-bay.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-fl-bay.json"
       },
       {
         "name": "us-fl-brevard",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-fl-brevard.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-fl-brevard.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-fl-brevard.json"
       },
       {
         "name": "us-fl-charlotte",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150413/us-fl-charlotte.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-fl-charlotte.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-fl-charlotte.json"
       },
       {
         "name": "us-fl-clay",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150410/us-fl-clay.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-fl-clay.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-fl-clay.json"
       },
       {
         "name": "us-fl-collier",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-fl-collier.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-fl-collier.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-fl-collier.json"
       },
       {
         "name": "us-fl-hillsborough",
-        "csv": "http://s3.amazonaws.com/openaddresses/20140816/us-fl-hillsborough.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-fl-hillsborough.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-fl-hillsborough.json"
       },
       {
         "name": "us-fl-lake",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-fl-lake.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-fl-lake.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-fl-lake.json"
       },
       {
         "name": "us-fl-lee",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-fl-lee.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-fl-lee.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-fl-lee.json"
       },
       {
         "name": "us-fl-leon",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-fl-leon.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-fl-leon.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-fl-leon.json"
       },
       {
         "name": "us-fl-manatee",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150413/us-fl-manatee.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-fl-manatee.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-fl-manatee.json"
       },
       {
         "name": "us-fl-miami",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-fl-miami.ZIP",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-fl-miami.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-fl-miami.json"
       },
       {
         "name": "us-fl-palm_beach_county",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150420/us-fl-palm_beach_county.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-fl-palm_beach_county.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-fl-palm_beach_county.json"
       },
       {
         "name": "us-fl-pinellas",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150420/us-fl-pinellas.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-fl-pinellas.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-fl-pinellas.json"
       },
       {
         "name": "us-fl-volusia",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150420/us-fl-volusia.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-fl-volusia.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-fl-volusia.json"
       },
       {
         "name": "us-ga-bibb",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150316/us-ga-bibb.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ga-bibb.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ga-bibb.json"
       },
       {
         "name": "us-ga-chatham",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-ga-chatham.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ga-chatham.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ga-chatham.json"
       },
       {
         "name": "us-ga-glynn",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150306/us-ga-glynn.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ga-glynn.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ga-glynn.json"
       },
       {
         "name": "us-hi-honolulu",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150309/us-hi-honolulu.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-hi-honolulu.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-hi-honolulu.json"
       },
       {
         "name": "us-ia-benton",
-        "csv": "http://s3.amazonaws.com/openaddresses/us-ia-benton.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ia-benton.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ia-benton.json"
       },
       {
         "name": "us-ia-boone",
-        "csv": "http://s3.amazonaws.com/openaddresses/us-ia-boone.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ia-boone.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ia-boone.json"
       },
       {
         "name": "us-ia-bremer",
-        "csv": "http://s3.amazonaws.com/openaddresses/us-ia-bremer.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ia-bremer.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ia-bremer.json"
       },
       {
         "name": "us-ia-buchanan",
-        "csv": "http://s3.amazonaws.com/openaddresses/us-ia-buchanan.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ia-buchanan.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ia-buchanan.json"
       },
       {
         "name": "us-ia-buena_vista",
-        "csv": "http://s3.amazonaws.com/openaddresses/us-ia-buena_vista.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ia-buena_vista.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ia-buena_vista.json"
       },
       {
         "name": "us-ia-calhoun",
-        "csv": "http://s3.amazonaws.com/openaddresses/us-ia-calhoun.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ia-calhoun.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ia-calhoun.json"
       },
       {
         "name": "us-ia-carroll",
-        "csv": "http://s3.amazonaws.com/openaddresses/us-ia-carroll.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ia-carroll.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ia-carroll.json"
       },
       {
         "name": "us-ia-cass",
-        "csv": "http://s3.amazonaws.com/openaddresses/us-ia-cass.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ia-cass.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ia-cass.json"
       },
       {
         "name": "us-ia-cherokee",
-        "csv": "http://s3.amazonaws.com/openaddresses/us-ia-cherokee.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ia-cherokee.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ia-cherokee.json"
       },
       {
         "name": "us-ia-clarke",
-        "csv": "http://s3.amazonaws.com/openaddresses/us-ia-clarke.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ia-clarke.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ia-clarke.json"
       },
       {
         "name": "us-ia-clarke_county",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150130/us-ia-clarke_county.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ia-clarke_county.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ia-clarke_county.json"
       },
       {
         "name": "us-ia-crawford",
-        "csv": "http://s3.amazonaws.com/openaddresses/us-ia-crawford.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ia-crawford.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ia-crawford.json"
       },
       {
         "name": "us-ia-dallas",
-        "csv": "http://s3.amazonaws.com/openaddresses/us-ia-dallas.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ia-dallas.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ia-dallas.json"
       },
       {
         "name": "us-ia-decatur",
-        "csv": "http://s3.amazonaws.com/openaddresses/us-ia-decatur.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ia-decatur.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ia-decatur.json"
       },
       {
         "name": "us-ia-delaware",
-        "csv": "http://s3.amazonaws.com/openaddresses/us-ia-delaware.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ia-delaware.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ia-delaware.json"
       },
       {
         "name": "us-ia-dickinson",
-        "csv": "http://s3.amazonaws.com/openaddresses/us-ia-dickinson.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ia-dickinson.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ia-dickinson.json"
       },
       {
         "name": "us-ia-emmet",
-        "csv": "http://s3.amazonaws.com/openaddresses/us-ia-emmet.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ia-emmet.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ia-emmet.json"
       },
       {
         "name": "us-ia-franklin",
-        "csv": "http://s3.amazonaws.com/openaddresses/us-ia-franklin.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ia-franklin.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ia-franklin.json"
       },
       {
         "name": "us-ia-fremont",
-        "csv": "http://s3.amazonaws.com/openaddresses/us-ia-fremont.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ia-fremont.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ia-fremont.json"
       },
       {
         "name": "us-ia-greene",
-        "csv": "http://s3.amazonaws.com/openaddresses/us-ia-greene.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ia-greene.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ia-greene.json"
       },
       {
         "name": "us-ia-guthrie",
-        "csv": "http://s3.amazonaws.com/openaddresses/us-ia-guthrie.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ia-guthrie.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ia-guthrie.json"
       },
       {
         "name": "us-ia-hamilton",
-        "csv": "http://s3.amazonaws.com/openaddresses/us-ia-hamilton.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ia-hamilton.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ia-hamilton.json"
       },
       {
         "name": "us-ia-hardin",
-        "csv": "http://s3.amazonaws.com/openaddresses/us-ia-hardin.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ia-hardin.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ia-hardin.json"
       },
       {
         "name": "us-ia-harrison",
-        "csv": "http://s3.amazonaws.com/openaddresses/us-ia-harrison.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ia-harrison.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ia-harrison.json"
       },
       {
         "name": "us-ia-howard",
-        "csv": "http://s3.amazonaws.com/openaddresses/us-ia-howard.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ia-howard.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ia-howard.json"
       },
       {
         "name": "us-ia-humboldt",
-        "csv": "http://s3.amazonaws.com/openaddresses/us-ia-humboldt.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ia-humboldt.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ia-humboldt.json"
       },
       {
         "name": "us-ia-ida",
-        "csv": "http://s3.amazonaws.com/openaddresses/us-ia-ida.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ia-ida.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ia-ida.json"
       },
       {
         "name": "us-ia-jasper",
-        "csv": "http://s3.amazonaws.com/openaddresses/us-ia-jasper.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ia-jasper.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ia-jasper.json"
       },
       {
         "name": "us-ia-johnson",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-ia-johnson.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ia-johnson.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ia-johnson.json"
       },
       {
         "name": "us-ia-kossuth",
-        "csv": "http://s3.amazonaws.com/openaddresses/us-ia-kossuth.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ia-kossuth.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ia-kossuth.json"
       },
       {
         "name": "us-ia-linn",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-ia-linn.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ia-linn.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ia-linn.json"
       },
       {
         "name": "us-ia-lucas",
-        "csv": "http://s3.amazonaws.com/openaddresses/us-ia-lucas.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ia-lucas.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ia-lucas.json"
       },
       {
         "name": "us-ia-lyon",
-        "csv": "http://s3.amazonaws.com/openaddresses/us-ia-lyon.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ia-lyon.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ia-lyon.json"
       },
       {
         "name": "us-ia-madison",
-        "csv": "http://s3.amazonaws.com/openaddresses/us-ia-madison.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ia-madison.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ia-madison.json"
       },
       {
         "name": "us-ia-marion",
-        "csv": "http://s3.amazonaws.com/openaddresses/us-ia-marion.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ia-marion.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ia-marion.json"
       },
       {
         "name": "us-ia-marshall",
-        "csv": "http://s3.amazonaws.com/openaddresses/us-ia-marshall.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ia-marshall.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ia-marshall.json"
       },
       {
         "name": "us-ia-mills",
-        "csv": "http://s3.amazonaws.com/openaddresses/us-ia-mills.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ia-mills.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ia-mills.json"
       },
       {
         "name": "us-ia-monona",
-        "csv": "http://s3.amazonaws.com/openaddresses/us-ia-monona.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ia-monona.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ia-monona.json"
       },
       {
         "name": "us-ia-monroe",
-        "csv": "http://s3.amazonaws.com/openaddresses/us-ia-monroe.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ia-monroe.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ia-monroe.json"
       },
       {
         "name": "us-ia-montgomery",
-        "csv": "http://s3.amazonaws.com/openaddresses/us-ia-montgomery.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ia-montgomery.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ia-montgomery.json"
       },
       {
         "name": "us-ia-muscatine",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20150102/us-ia-muscatine.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ia-muscatine.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ia-muscatine.json"
       },
       {
         "name": "us-ia-palo_alto",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20141212/us-ia-palo_alto.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ia-palo_alto.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ia-palo_alto.json"
       },
       {
         "name": "us-ia-pocahontas",
-        "csv": "http://s3.amazonaws.com/openaddresses/us-ia-pocahontas.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ia-pocahontas.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ia-pocahontas.json"
       },
       {
         "name": "us-ia-polk",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150316/us-ia-polk.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ia-polk.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ia-polk.json"
       },
       {
         "name": "us-ia-pottawattamie",
-        "csv": "http://s3.amazonaws.com/openaddresses/us-ia-pottawattamie.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ia-pottawattamie.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ia-pottawattamie.json"
       },
       {
         "name": "us-ia-sac",
-        "csv": "http://s3.amazonaws.com/openaddresses/us-ia-sac.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ia-sac.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ia-sac.json"
       },
       {
         "name": "us-ia-scott",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20150102/us-ia-scott.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ia-scott.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ia-scott.json"
       },
       {
         "name": "us-ia-shelby",
-        "csv": "http://s3.amazonaws.com/openaddresses/us-ia-shelby.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ia-shelby.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ia-shelby.json"
       },
       {
         "name": "us-ia-sioux",
-        "csv": "http://s3.amazonaws.com/openaddresses/us-ia-sioux.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ia-sioux.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ia-sioux.json"
       },
       {
         "name": "us-ia-sioux_county",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150130/us-ia-sioux_county.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ia-sioux_county.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ia-sioux_county.json"
       },
       {
         "name": "us-ia-webster",
-        "csv": "http://s3.amazonaws.com/openaddresses/us-ia-webster.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ia-webster.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ia-webster.json"
       },
       {
         "name": "us-ia-winnebago",
-        "csv": "http://s3.amazonaws.com/openaddresses/us-ia-winnebago.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ia-winnebago.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ia-winnebago.json"
       },
       {
         "name": "us-ia-winneshiek",
-        "csv": "http://s3.amazonaws.com/openaddresses/us-ia-winneshiek.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ia-winneshiek.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ia-winneshiek.json"
       },
       {
         "name": "us-ia-wright",
-        "csv": "http://s3.amazonaws.com/openaddresses/us-ia-wright.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ia-wright.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ia-wright.json"
       },
       {
         "name": "us-id-bonner",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-id-bonner.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-id-bonner.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-id-bonner.json"
       },
       {
         "name": "us-id-canyon",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-id-canyon.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-id-canyon.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-id-canyon.json"
       },
       {
         "name": "us-id-post_falls",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150417/us-id-post_falls.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-id-post_falls.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-id-post_falls.json"
       },
       {
         "name": "us-id-teton",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150410/us-id-teton.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-id-teton.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-id-teton.json"
       },
       {
         "name": "us-il-adams",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150316/us-il-adams.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-il-adams.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-il-adams.json"
       },
       {
         "name": "us-il-christian",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150316/us-il-christian.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-il-christian.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-il-christian.json"
       },
       {
         "name": "us-il-city_of_aurora",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-il-city_of_aurora.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-il-city_of_aurora.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-il-city_of_aurora.json"
       },
       {
         "name": "us-il-city_of_chicago",
-        "csv": "http://s3.amazonaws.com/openaddresses-cfa/20141030/us-il-city_of_chicago",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-il-city_of_chicago.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-il-city_of_chicago.json"
       },
       {
         "name": "us-il-clark",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150316/us-il-clark.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-il-clark.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-il-clark.json"
       },
       {
         "name": "us-il-cook",
-        "csv": "http://s3.amazonaws.com/openaddresses-cfa/20141030/us-il-cook",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-il-cook.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-il-cook.json"
       },
       {
         "name": "us-il-jackson",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150316/us-il-jackson.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-il-jackson.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-il-jackson.json"
       },
       {
         "name": "us-il-jersey",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150316/us-il-jersey.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-il-jersey.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-il-jersey.json"
       },
       {
         "name": "us-il-massac",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150410/us-il-massac.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-il-massac.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-il-massac.json"
       },
       {
         "name": "us-il-mcdonough",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150402/us-il-mcdonough.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-il-mcdonough.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-il-mcdonough.json"
       },
       {
         "name": "us-il-mchenry",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-il-mchenry.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-il-mchenry.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-il-mchenry.json"
       },
       {
         "name": "us-il-menard",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150420/us-il-menard.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-il-menard.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-il-menard.json"
       },
       {
         "name": "us-il-morgan",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-il-morgan.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-il-morgan.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-il-morgan.json"
       },
       {
         "name": "us-il-putnam",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150415/us-il-putnam.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-il-putnam.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-il-putnam.json"
       },
       {
         "name": "us-il-schuyler",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150316/us-il-schuyler.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-il-schuyler.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-il-schuyler.json"
       },
       {
         "name": "us-il-skokie",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150316/us-il-skokie.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-il-skokie.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-il-skokie.json"
       },
       {
         "name": "us-il-vermilion",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150316/us-il-vermilion.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-il-vermilion.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-il-vermilion.json"
       },
       {
         "name": "us-il-williamson",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150402/us-il-williamson.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-il-williamson.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-il-williamson.json"
       },
       {
         "name": "us-in-bartholomew",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150417/us-in-bartholomew.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-in-bartholomew.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-in-bartholomew.json"
       },
       {
         "name": "us-in-hamilton",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150417/us-in-hamilton.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-in-hamilton.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-in-hamilton.json"
       },
       {
         "name": "us-in-st_joseph",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150415/us-in-st_joseph.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-in-st_joseph.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-in-st_joseph.json"
       },
       {
         "name": "us-in",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150413/us-in.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-in.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-in.json"
       },
       {
         "name": "us-ks-city_of_olathe",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-ks-city_of_olathe.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ks-city_of_olathe.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ks-city_of_olathe.json"
       },
       {
         "name": "us-ks-douglas",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-ks-douglas.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ks-douglas.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ks-douglas.json"
       },
       {
         "name": "us-ks-lawrence",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-ks-lawrence.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ks-lawrence.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ks-lawrence.json"
       },
       {
         "name": "us-ky-boone",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-ky-boone.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ky-boone.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ky-boone.json"
       },
       {
         "name": "us-ky-city_of_paducah",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150316/us-ky-city_of_paducah.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ky-city_of_paducah.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ky-city_of_paducah.json"
       },
       {
         "name": "us-ky-lexington-fayette",
-        "csv": "http://s3.amazonaws.com/openaddresses/us-ky-lexington-fayette.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ky-lexington-fayette.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ky-lexington-fayette.json"
       },
       {
         "name": "us-ky-mccracken",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150417/us-ky-mccracken.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ky-mccracken.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ky-mccracken.json"
       },
       {
         "name": "us-ky-oldham",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150316/us-ky-oldham.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ky-oldham.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ky-oldham.json"
       },
       {
         "name": "us-la-st_james",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150413/us-la-st_james.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-la-st_james.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-la-st_james.json"
       },
       {
         "name": "us-ma",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150402/us-ma.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ma.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ma.json"
       },
       {
         "name": "us-md-baltimore",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150413/us-md-baltimore.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-md-baltimore.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-md-baltimore.json"
       },
       {
         "name": "us-md-carroll",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150417/us-md-carroll.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-md-carroll.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-md-carroll.json"
       },
       {
         "name": "us-md-cecil",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150402/us-md-cecil.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-md-cecil.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-md-cecil.json"
       },
       {
         "name": "us-md-harford",
-        "csv": "http://s3.amazonaws.com/openaddresses/us-md-harford.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-md-harford.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-md-harford.json"
       },
       {
         "name": "us-md-howard",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150204/us-md-howard.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-md-howard.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-md-howard.json"
       },
       {
         "name": "us-md-montgomery",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150225/us-md-montgomery.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-md-montgomery.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-md-montgomery.json"
       },
       {
         "name": "us-md-st_marys",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-md-st_marys.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-md-st_marys.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-md-st_marys.json"
       },
       {
         "name": "us-md",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150402/us-md.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-md.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-md.json"
       },
       {
         "name": "us-me",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150402/us-me.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-me.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-me.json"
       },
       {
         "name": "us-mi-city_of_rochester",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150320/us-mi-city_of_rochester.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-mi-city_of_rochester.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-mi-city_of_rochester.json"
       },
       {
         "name": "us-mi-kent",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-mi-kent.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-mi-kent.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-mi-kent.json"
       },
       {
         "name": "us-mi-ottawa",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-mi-ottawa.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-mi-ottawa.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-mi-ottawa.json"
       },
       {
         "name": "us-mi-washtenaw",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150316/us-mi-washtenaw.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-mi-washtenaw.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-mi-washtenaw.json"
       },
       {
         "name": "us-mn-aitkin",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-mn-aitkin.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-mn-aitkin.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-mn-aitkin.json"
       },
       {
         "name": "us-mn-anoka",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150316/us-mn-anoka.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-mn-anoka.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-mn-anoka.json"
       },
       {
         "name": "us-mn-becker",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150420/us-mn-becker.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-mn-becker.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-mn-becker.json"
       },
       {
         "name": "us-mn-big_stone",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150415/us-mn-big_stone.vbhtml",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-mn-big_stone.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-mn-big_stone.json"
       },
       {
         "name": "us-mn-carver",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-mn-carver.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-mn-carver.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-mn-carver.json"
       },
       {
         "name": "us-mn-clay",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20150102/us-mn-clay.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-mn-clay.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-mn-clay.json"
       },
       {
         "name": "us-mn-dakota",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150410/us-mn-dakota.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-mn-dakota.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-mn-dakota.json"
       },
       {
         "name": "us-mn-fillmore",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150316/us-mn-fillmore.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-mn-fillmore.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-mn-fillmore.json"
       },
       {
         "name": "us-mn-hennepin",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150417/us-mn-hennepin.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-mn-hennepin.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-mn-hennepin.json"
       },
       {
         "name": "us-mn-lake_of_the_woods",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150316/us-mn-lake_of_the_woods.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-mn-lake_of_the_woods.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-mn-lake_of_the_woods.json"
       },
       {
         "name": "us-mn-metrogis",
-        "csv": "http://s3.amazonaws.com/openaddresses/us-mn-metrogis.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-mn-metrogis.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-mn-metrogis.json"
       },
       {
         "name": "us-mn-mille_lacs",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150316/us-mn-mille_lacs.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-mn-mille_lacs.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-mn-mille_lacs.json"
       },
       {
         "name": "us-mn-otter_tail",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150402/us-mn-otter_tail.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-mn-otter_tail.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-mn-otter_tail.json"
       },
       {
         "name": "us-mn-polk",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150410/us-mn-polk.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-mn-polk.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-mn-polk.json"
       },
       {
         "name": "us-mn-pope",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150316/us-mn-pope.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-mn-pope.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-mn-pope.json"
       },
       {
         "name": "us-mn-ramsey",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-mn-ramsey.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-mn-ramsey.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-mn-ramsey.json"
       },
       {
         "name": "us-mn-renville",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150316/us-mn-renville.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-mn-renville.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-mn-renville.json"
       },
       {
         "name": "us-mn-roseau",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-mn-roseau.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-mn-roseau.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-mn-roseau.json"
       },
       {
         "name": "us-mn-wadena",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-mn-wadena.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-mn-wadena.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-mn-wadena.json"
       },
       {
         "name": "us-mn-wilkin",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150316/us-mn-wilkin.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-mn-wilkin.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-mn-wilkin.json"
       },
       {
         "name": "us-mo-cole",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-mo-cole.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-mo-cole.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-mo-cole.json"
       },
       {
         "name": "us-mo-greene",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-mo-greene.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-mo-greene.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-mo-greene.json"
       },
       {
         "name": "us-mo-jackson",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-mo-jackson.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-mo-jackson.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-mo-jackson.json"
       },
       {
         "name": "us-mo-st_louis_county",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-mo-st_louis_county.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-mo-st_louis_county.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-mo-st_louis_county.json"
       },
       {
         "name": "us-ms-copiah",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150316/us-ms-copiah.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ms-copiah.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ms-copiah.json"
       },
       {
         "name": "us-ms-desoto",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-ms-desoto.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ms-desoto.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ms-desoto.json"
       },
       {
         "name": "us-ms-hinds",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150316/us-ms-hinds.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ms-hinds.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ms-hinds.json"
       },
       {
         "name": "us-ms-madison",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150316/us-ms-madison.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ms-madison.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ms-madison.json"
       },
       {
         "name": "us-mt-beaverhead",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150410/us-mt-beaverhead.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-mt-beaverhead.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-mt-beaverhead.json"
       },
       {
         "name": "us-mt-big_horn",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150410/us-mt-big_horn.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-mt-big_horn.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-mt-big_horn.json"
       },
       {
         "name": "us-mt-blaine",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150410/us-mt-blaine.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-mt-blaine.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-mt-blaine.json"
       },
       {
         "name": "us-mt-broadwater",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150410/us-mt-broadwater.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-mt-broadwater.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-mt-broadwater.json"
       },
       {
         "name": "us-mt-carbon",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150410/us-mt-carbon.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-mt-carbon.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-mt-carbon.json"
       },
       {
         "name": "us-mt-carter",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150410/us-mt-carter.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-mt-carter.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-mt-carter.json"
       },
       {
         "name": "us-mt-cascade",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150410/us-mt-cascade.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-mt-cascade.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-mt-cascade.json"
       },
       {
         "name": "us-mt-chouteau",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150410/us-mt-chouteau.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-mt-chouteau.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-mt-chouteau.json"
       },
       {
         "name": "us-mt-custer",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150410/us-mt-custer.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-mt-custer.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-mt-custer.json"
       },
       {
         "name": "us-mt-daniels",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150410/us-mt-daniels.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-mt-daniels.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-mt-daniels.json"
       },
       {
         "name": "us-mt-dawson",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150410/us-mt-dawson.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-mt-dawson.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-mt-dawson.json"
       },
       {
         "name": "us-mt-deer_lodge",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150410/us-mt-deer_lodge.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-mt-deer_lodge.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-mt-deer_lodge.json"
       },
       {
         "name": "us-mt-fallon",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150410/us-mt-fallon.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-mt-fallon.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-mt-fallon.json"
       },
       {
         "name": "us-mt-fergus",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150410/us-mt-fergus.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-mt-fergus.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-mt-fergus.json"
       },
       {
         "name": "us-mt-flathead",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150410/us-mt-flathead.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-mt-flathead.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-mt-flathead.json"
       },
       {
         "name": "us-mt-gallatin",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150410/us-mt-gallatin.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-mt-gallatin.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-mt-gallatin.json"
       },
       {
         "name": "us-mt-garfield",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150410/us-mt-garfield.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-mt-garfield.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-mt-garfield.json"
       },
       {
         "name": "us-mt-glacier",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150410/us-mt-glacier.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-mt-glacier.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-mt-glacier.json"
       },
       {
         "name": "us-mt-golden_valley",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150410/us-mt-golden_valley.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-mt-golden_valley.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-mt-golden_valley.json"
       },
       {
         "name": "us-mt-granite",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150410/us-mt-granite.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-mt-granite.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-mt-granite.json"
       },
       {
         "name": "us-mt-helena",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150410/us-mt-helena.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-mt-helena.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-mt-helena.json"
       },
       {
         "name": "us-mt-hill",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150410/us-mt-hill.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-mt-hill.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-mt-hill.json"
       },
       {
         "name": "us-mt-jefferson",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150410/us-mt-jefferson.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-mt-jefferson.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-mt-jefferson.json"
       },
       {
         "name": "us-mt-judith_basin",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150410/us-mt-judith_basin.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-mt-judith_basin.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-mt-judith_basin.json"
       },
       {
         "name": "us-mt-lake",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150410/us-mt-lake.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-mt-lake.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-mt-lake.json"
       },
       {
         "name": "us-mt-lake_county",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150410/us-mt-lake_county.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-mt-lake_county.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-mt-lake_county.json"
       },
       {
         "name": "us-mt-liberty",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150410/us-mt-liberty.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-mt-liberty.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-mt-liberty.json"
       },
       {
         "name": "us-mt-lincoln",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150410/us-mt-lincoln.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-mt-lincoln.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-mt-lincoln.json"
       },
       {
         "name": "us-mt-madison",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150410/us-mt-madison.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-mt-madison.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-mt-madison.json"
       },
       {
         "name": "us-mt-mccone",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150410/us-mt-mccone.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-mt-mccone.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-mt-mccone.json"
       },
       {
         "name": "us-mt-meagher",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150410/us-mt-meagher.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-mt-meagher.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-mt-meagher.json"
       },
       {
         "name": "us-mt-mineral",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150410/us-mt-mineral.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-mt-mineral.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-mt-mineral.json"
       },
       {
         "name": "us-mt-missoula",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150410/us-mt-missoula.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-mt-missoula.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-mt-missoula.json"
       },
       {
         "name": "us-mt-musselshell",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150410/us-mt-musselshell.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-mt-musselshell.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-mt-musselshell.json"
       },
       {
         "name": "us-mt-park",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150316/us-mt-park.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-mt-park.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-mt-park.json"
       },
       {
         "name": "us-mt-petroleum",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150410/us-mt-petroleum.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-mt-petroleum.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-mt-petroleum.json"
       },
       {
         "name": "us-mt-phillips",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150410/us-mt-phillips.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-mt-phillips.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-mt-phillips.json"
       },
       {
         "name": "us-mt-pondera",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150410/us-mt-pondera.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-mt-pondera.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-mt-pondera.json"
       },
       {
         "name": "us-mt-powder_river",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150410/us-mt-powder_river.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-mt-powder_river.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-mt-powder_river.json"
       },
       {
         "name": "us-mt-powell",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150410/us-mt-powell.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-mt-powell.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-mt-powell.json"
       },
       {
         "name": "us-mt-prairie",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150410/us-mt-prairie.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-mt-prairie.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-mt-prairie.json"
       },
       {
         "name": "us-mt-ravalli",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150410/us-mt-ravalli.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-mt-ravalli.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-mt-ravalli.json"
       },
       {
         "name": "us-mt-richland",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150410/us-mt-richland.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-mt-richland.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-mt-richland.json"
       },
       {
         "name": "us-mt-roosevelt",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150410/us-mt-roosevelt.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-mt-roosevelt.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-mt-roosevelt.json"
       },
       {
         "name": "us-mt-rosebud",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150410/us-mt-rosebud.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-mt-rosebud.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-mt-rosebud.json"
       },
       {
         "name": "us-mt-sanders",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150410/us-mt-sanders.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-mt-sanders.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-mt-sanders.json"
       },
       {
         "name": "us-mt-sheridan",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150410/us-mt-sheridan.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-mt-sheridan.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-mt-sheridan.json"
       },
       {
         "name": "us-mt-silverbow",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150410/us-mt-silverbow.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-mt-silverbow.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-mt-silverbow.json"
       },
       {
         "name": "us-mt-stillwater",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150410/us-mt-stillwater.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-mt-stillwater.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-mt-stillwater.json"
       },
       {
         "name": "us-mt-sweet_grass",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150410/us-mt-sweet_grass.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-mt-sweet_grass.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-mt-sweet_grass.json"
       },
       {
         "name": "us-mt-teton",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150410/us-mt-teton.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-mt-teton.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-mt-teton.json"
       },
       {
         "name": "us-mt-toole",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150410/us-mt-toole.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-mt-toole.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-mt-toole.json"
       },
       {
         "name": "us-mt-treasure",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150410/us-mt-treasure.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-mt-treasure.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-mt-treasure.json"
       },
       {
         "name": "us-mt-valley",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150410/us-mt-valley.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-mt-valley.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-mt-valley.json"
       },
       {
         "name": "us-mt-wheatland",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150410/us-mt-wheatland.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-mt-wheatland.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-mt-wheatland.json"
       },
       {
         "name": "us-mt-wibaux",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150410/us-mt-wibaux.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-mt-wibaux.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-mt-wibaux.json"
       },
       {
         "name": "us-mt-yellowstone",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150410/us-mt-yellowstone.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-mt-yellowstone.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-mt-yellowstone.json"
       },
       {
         "name": "us-mt",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150402/us-mt.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-mt.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-mt.json"
       },
       {
         "name": "us-nc-alamance",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20141110/us-nc-alamance.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-nc-alamance.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-nc-alamance.json"
       },
       {
         "name": "us-nc-alexander",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150316/us-nc-alexander.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-nc-alexander.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-nc-alexander.json"
       },
       {
         "name": "us-nc-alleghany",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150316/us-nc-alleghany.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-nc-alleghany.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-nc-alleghany.json"
       },
       {
         "name": "us-nc-anson",
-        "csv": "http://s3.amazonaws.com/openaddresses/us-nc-anson.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-nc-anson.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-nc-anson.json"
       },
       {
         "name": "us-nc-avery",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150316/us-nc-avery.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-nc-avery.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-nc-avery.json"
       },
       {
         "name": "us-nc-blowing_rock",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150316/us-nc-blowing_rock.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-nc-blowing_rock.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-nc-blowing_rock.json"
       },
       {
         "name": "us-nc-buncombe",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150420/us-nc-buncombe.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-nc-buncombe.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-nc-buncombe.json"
       },
       {
         "name": "us-nc-burke",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150316/us-nc-burke.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-nc-burke.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-nc-burke.json"
       },
       {
         "name": "us-nc-cabarrus",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-nc-cabarrus.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-nc-cabarrus.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-nc-cabarrus.json"
       },
       {
         "name": "us-nc-cary",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150306/us-nc-cary.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-nc-cary.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-nc-cary.json"
       },
       {
         "name": "us-nc-caswell",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150316/us-nc-caswell.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-nc-caswell.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-nc-caswell.json"
       },
       {
         "name": "us-nc-chatham",
-        "csv": "http://s3.amazonaws.com/openaddresses/20140821/us-nc-chatham.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-nc-chatham.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-nc-chatham.json"
       },
       {
         "name": "us-nc-cherokee",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150410/us-nc-cherokee.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-nc-cherokee.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-nc-cherokee.json"
       },
       {
         "name": "us-nc-city_of_carolina_beach",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150316/us-nc-city_of_carolina_beach.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-nc-city_of_carolina_beach.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-nc-city_of_carolina_beach.json"
       },
       {
         "name": "us-nc-city_of_elizabeth_city",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150402/us-nc-city_of_elizabeth_city.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-nc-city_of_elizabeth_city.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-nc-city_of_elizabeth_city.json"
       },
       {
         "name": "us-nc-city_of_king",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150402/us-nc-city_of_king.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-nc-city_of_king.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-nc-city_of_king.json"
       },
       {
         "name": "us-nc-cleveland",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150402/us-nc-cleveland.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-nc-cleveland.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-nc-cleveland.json"
       },
       {
         "name": "us-nc-craven",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150402/us-nc-craven.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-nc-craven.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-nc-craven.json"
       },
       {
         "name": "us-nc-davie",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150420/us-nc-davie.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-nc-davie.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-nc-davie.json"
       },
       {
         "name": "us-nc-granville",
-        "csv": "http://s3.amazonaws.com/openaddresses/20140821/us-nc-granville.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-nc-granville.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-nc-granville.json"
       },
       {
         "name": "us-nc-guilford",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-nc-guilford.html",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-nc-guilford.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-nc-guilford.json"
       },
       {
         "name": "us-nc-harnett",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150415/us-nc-harnett.obj",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-nc-harnett.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-nc-harnett.json"
       },
       {
         "name": "us-nc-haywood",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150410/us-nc-haywood.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-nc-haywood.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-nc-haywood.json"
       },
       {
         "name": "us-nc-henderson",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150415/us-nc-henderson.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-nc-henderson.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-nc-henderson.json"
       },
       {
         "name": "us-nc-iredell",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150417/us-nc-iredell.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-nc-iredell.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-nc-iredell.json"
       },
       {
         "name": "us-nc-lee",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150130/us-nc-lee.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-nc-lee.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-nc-lee.json"
       },
       {
         "name": "us-nc-lincoln",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-nc-lincoln.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-nc-lincoln.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-nc-lincoln.json"
       },
       {
         "name": "us-nc-madison",
-        "csv": "http://s3.amazonaws.com/openaddresses/20140815/us-nc-madison.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-nc-madison.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-nc-madison.json"
       },
       {
         "name": "us-nc-mecklenburg",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150417/us-nc-mecklenburg.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-nc-mecklenburg.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-nc-mecklenburg.json"
       },
       {
         "name": "us-nc-montgomery",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150323/us-nc-montgomery.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-nc-montgomery.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-nc-montgomery.json"
       },
       {
         "name": "us-nc-moore",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-nc-moore.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-nc-moore.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-nc-moore.json"
       },
       {
         "name": "us-nc-onslow",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-nc-onslow.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-nc-onslow.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-nc-onslow.json"
       },
       {
         "name": "us-nc-orange",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150410/us-nc-orange.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-nc-orange.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-nc-orange.json"
       },
       {
         "name": "us-nc-rutherford",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150316/us-nc-rutherford.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-nc-rutherford.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-nc-rutherford.json"
       },
       {
         "name": "us-nc-salisbury",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150413/us-nc-salisbury.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-nc-salisbury.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-nc-salisbury.json"
       },
       {
         "name": "us-nc-town_of_chapel_hill",
-        "csv": "http://s3.amazonaws.com/openaddresses/20140822/us-nc-town_of_chapel_hill.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-nc-town_of_chapel_hill.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-nc-town_of_chapel_hill.json"
       },
       {
         "name": "us-nc-union",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150304/us-nc-union.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-nc-union.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-nc-union.json"
       },
       {
         "name": "us-nc-washington",
-        "csv": "http://s3.amazonaws.com/openaddresses/20140822/us-nc-washington.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-nc-washington.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-nc-washington.json"
       },
       {
         "name": "us-nc-wayne",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150213/us-nc-wayne.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-nc-wayne.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-nc-wayne.json"
       },
       {
         "name": "us-nd-cass",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-nd-cass.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-nd-cass.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-nd-cass.json"
       },
       {
         "name": "us-nd-williams",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150413/us-nd-williams.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-nd-williams.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-nd-williams.json"
       },
       {
         "name": "us-ne-lancaster",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-ne-lancaster.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ne-lancaster.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ne-lancaster.json"
       },
       {
         "name": "us-ne-omaha",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150410/us-ne-omaha.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ne-omaha.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ne-omaha.json"
       },
       {
         "name": "us-ne-sarpy",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150323/us-ne-sarpy.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ne-sarpy.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ne-sarpy.json"
       },
       {
         "name": "us-nh-city_of_nashua",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-nh-city_of_nashua.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-nh-city_of_nashua.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-nh-city_of_nashua.json"
       },
       {
         "name": "us-nh-jaffrey",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150320/us-nh-jaffrey.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-nh-jaffrey.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-nh-jaffrey.json"
       },
       {
         "name": "us-nj-cape_may",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150211/us-nj-cape_may.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-nj-cape_may.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-nj-cape_may.json"
       },
       {
         "name": "us-nj-morris",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150410/us-nj-morris.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-nj-morris.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-nj-morris.json"
       },
       {
         "name": "us-nm-albuquerque",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20150113/us-nm-albuquerque.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-nm-albuquerque.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-nm-albuquerque.json"
       },
       {
         "name": "us-nm-city_of_las_cruces",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-nm-city_of_las_cruces.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-nm-city_of_las_cruces.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-nm-city_of_las_cruces.json"
       },
       {
         "name": "us-nm-dona_ana-2",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150130/us-nm-dona_ana-2.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-nm-dona_ana-2.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-nm-dona_ana-2.json"
       },
       {
         "name": "us-nm-dona_ana",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150417/us-nm-dona_ana.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-nm-dona_ana.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-nm-dona_ana.json"
       },
       {
         "name": "us-nm-hidalgo",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150316/us-nm-hidalgo.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-nm-hidalgo.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-nm-hidalgo.json"
       },
       {
         "name": "us-nm-san_juan",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150410/us-nm-san_juan.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-nm-san_juan.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-nm-san_juan.json"
       },
       {
         "name": "us-nv-las_vegas",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150417/us-nv-las_vegas.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-nv-las_vegas.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-nv-las_vegas.json"
       },
       {
         "name": "us-nv-washoe",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150323/us-nv-washoe.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-nv-washoe.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-nv-washoe.json"
       },
       {
         "name": "us-ny-allegany",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-ny-allegany.html",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ny-allegany.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ny-allegany.json"
       },
       {
         "name": "us-ny-cayuga",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150220/us-ny-cayuga.html",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ny-cayuga.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ny-cayuga.json"
       },
       {
         "name": "us-ny-nyc",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20141226/us-ny-nyc.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ny-nyc.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ny-nyc.json"
       },
       {
         "name": "us-ny-ulster",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150220/us-ny-ulster.html",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ny-ulster.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ny-ulster.json"
       },
       {
         "name": "us-ny",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150318/us-ny.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ny.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ny.json"
       },
       {
         "name": "us-oh-adams",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150223/us-oh-adams.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-oh-adams.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-oh-adams.json"
       },
       {
         "name": "us-oh-allen",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150320/us-oh-allen.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-oh-allen.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-oh-allen.json"
       },
       {
         "name": "us-oh-ashland",
-        "csv": "http://s3.amazonaws.com/openaddresses/us-oh-ashland.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-oh-ashland.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-oh-ashland.json"
       },
       {
         "name": "us-oh-ashtabula",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150320/us-oh-ashtabula.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-oh-ashtabula.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-oh-ashtabula.json"
       },
       {
         "name": "us-oh-athens",
-        "csv": "http://s3.amazonaws.com/openaddresses/us-oh-athens.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-oh-athens.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-oh-athens.json"
       },
       {
         "name": "us-oh-auglaize",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150130/us-oh-auglaize.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-oh-auglaize.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-oh-auglaize.json"
       },
       {
         "name": "us-oh-brown",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150402/us-oh-brown.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-oh-brown.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-oh-brown.json"
       },
       {
         "name": "us-oh-butler",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150223/us-oh-butler.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-oh-butler.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-oh-butler.json"
       },
       {
         "name": "us-oh-carroll",
-        "csv": "http://s3.amazonaws.com/openaddresses/us-oh-carroll.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-oh-carroll.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-oh-carroll.json"
       },
       {
         "name": "us-oh-champaign",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150309/us-oh-champaign.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-oh-champaign.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-oh-champaign.json"
       },
       {
         "name": "us-oh-clark",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150223/us-oh-clark.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-oh-clark.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-oh-clark.json"
       },
       {
         "name": "us-oh-clinton",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150223/us-oh-clinton.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-oh-clinton.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-oh-clinton.json"
       },
       {
         "name": "us-oh-columbiana",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150223/us-oh-columbiana.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-oh-columbiana.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-oh-columbiana.json"
       },
       {
         "name": "us-oh-crawford",
-        "csv": "http://s3.amazonaws.com/openaddresses/20140813/us-oh-crawford.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-oh-crawford.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-oh-crawford.json"
       },
       {
         "name": "us-oh-cuyahoga",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150223/us-oh-cuyahoga.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-oh-cuyahoga.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-oh-cuyahoga.json"
       },
       {
         "name": "us-oh-darke",
-        "csv": "http://s3.amazonaws.com/openaddresses/us-oh-darke.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-oh-darke.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-oh-darke.json"
       },
       {
         "name": "us-oh-defiance",
-        "csv": "http://s3.amazonaws.com/openaddresses/us-oh-defiance.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-oh-defiance.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-oh-defiance.json"
       },
       {
         "name": "us-oh-delaware",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150223/us-oh-delaware.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-oh-delaware.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-oh-delaware.json"
       },
       {
         "name": "us-oh-erie",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150223/us-oh-erie.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-oh-erie.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-oh-erie.json"
       },
       {
         "name": "us-oh-fairfield",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150223/us-oh-fairfield.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-oh-fairfield.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-oh-fairfield.json"
       },
       {
         "name": "us-oh-fayette",
-        "csv": "http://s3.amazonaws.com/openaddresses/us-oh-fayette.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-oh-fayette.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-oh-fayette.json"
       },
       {
         "name": "us-oh-franklin",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150223/us-oh-franklin.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-oh-franklin.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-oh-franklin.json"
       },
       {
         "name": "us-oh-fulton",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150204/us-oh-fulton.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-oh-fulton.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-oh-fulton.json"
       },
       {
         "name": "us-oh-gallia",
-        "csv": "http://s3.amazonaws.com/openaddresses/us-oh-gallia.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-oh-gallia.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-oh-gallia.json"
       },
       {
         "name": "us-oh-greene",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150402/us-oh-greene.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-oh-greene.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-oh-greene.json"
       },
       {
         "name": "us-oh-guernsey",
-        "csv": "http://s3.amazonaws.com/openaddresses/us-oh-guernsey.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-oh-guernsey.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-oh-guernsey.json"
       },
       {
         "name": "us-oh-hancock",
-        "csv": "http://s3.amazonaws.com/openaddresses/us-oh-hancock.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-oh-hancock.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-oh-hancock.json"
       },
       {
         "name": "us-oh-hardin",
-        "csv": "http://s3.amazonaws.com/openaddresses/us-oh-hardin.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-oh-hardin.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-oh-hardin.json"
       },
       {
         "name": "us-oh-harrison",
-        "csv": "http://s3.amazonaws.com/openaddresses/us-oh-harrison.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-oh-harrison.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-oh-harrison.json"
       },
       {
         "name": "us-oh-henry",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-oh-henry.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-oh-henry.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-oh-henry.json"
       },
       {
         "name": "us-oh-highland",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150304/us-oh-highland.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-oh-highland.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-oh-highland.json"
       },
       {
         "name": "us-oh-hocking",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150223/us-oh-hocking.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-oh-hocking.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-oh-hocking.json"
       },
       {
         "name": "us-oh-holmes",
-        "csv": "http://s3.amazonaws.com/openaddresses/us-oh-holmes.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-oh-holmes.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-oh-holmes.json"
       },
       {
         "name": "us-oh-huron",
-        "csv": "http://s3.amazonaws.com/openaddresses/us-oh-huron.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-oh-huron.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-oh-huron.json"
       },
       {
         "name": "us-oh-jackson",
-        "csv": "http://s3.amazonaws.com/openaddresses/us-oh-jackson.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-oh-jackson.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-oh-jackson.json"
       },
       {
         "name": "us-oh-jefferson",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150223/us-oh-jefferson.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-oh-jefferson.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-oh-jefferson.json"
       },
       {
         "name": "us-oh-knox",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150223/us-oh-knox.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-oh-knox.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-oh-knox.json"
       },
       {
         "name": "us-oh-lake",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150223/us-oh-lake.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-oh-lake.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-oh-lake.json"
       },
       {
         "name": "us-oh-lawrence",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150223/us-oh-lawrence.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-oh-lawrence.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-oh-lawrence.json"
       },
       {
         "name": "us-oh-licking",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150223/us-oh-licking.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-oh-licking.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-oh-licking.json"
       },
       {
         "name": "us-oh-logan",
-        "csv": "http://s3.amazonaws.com/openaddresses/us-oh-logan.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-oh-logan.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-oh-logan.json"
       },
       {
         "name": "us-oh-lucas",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150223/us-oh-lucas.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-oh-lucas.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-oh-lucas.json"
       },
       {
         "name": "us-oh-madison",
-        "csv": "http://s3.amazonaws.com/openaddresses/us-oh-madison.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-oh-madison.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-oh-madison.json"
       },
       {
         "name": "us-oh-mahoning",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150223/us-oh-mahoning.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-oh-mahoning.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-oh-mahoning.json"
       },
       {
         "name": "us-oh-marion",
-        "csv": "http://s3.amazonaws.com/openaddresses/us-oh-marion.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-oh-marion.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-oh-marion.json"
       },
       {
         "name": "us-oh-medina",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150313/us-oh-medina.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-oh-medina.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-oh-medina.json"
       },
       {
         "name": "us-oh-mercer",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150223/us-oh-mercer.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-oh-mercer.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-oh-mercer.json"
       },
       {
         "name": "us-oh-miami",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150223/us-oh-miami.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-oh-miami.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-oh-miami.json"
       },
       {
         "name": "us-oh-monroe",
-        "csv": "http://s3.amazonaws.com/openaddresses/us-oh-monroe.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-oh-monroe.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-oh-monroe.json"
       },
       {
         "name": "us-oh-morgan",
-        "csv": "http://s3.amazonaws.com/openaddresses/us-oh-morgan.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-oh-morgan.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-oh-morgan.json"
       },
       {
         "name": "us-oh-morrow",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150406/us-oh-morrow.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-oh-morrow.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-oh-morrow.json"
       },
       {
         "name": "us-oh-muskingum",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150304/us-oh-muskingum.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-oh-muskingum.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-oh-muskingum.json"
       },
       {
         "name": "us-oh-noble",
-        "csv": "http://s3.amazonaws.com/openaddresses/us-oh-noble.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-oh-noble.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-oh-noble.json"
       },
       {
         "name": "us-oh-ottawa",
-        "csv": "http://s3.amazonaws.com/openaddresses/us-oh-ottawa.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-oh-ottawa.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-oh-ottawa.json"
       },
       {
         "name": "us-oh-paulding",
-        "csv": "http://s3.amazonaws.com/openaddresses/us-oh-paulding.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-oh-paulding.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-oh-paulding.json"
       },
       {
         "name": "us-oh-perry",
-        "csv": "http://s3.amazonaws.com/openaddresses/us-oh-perry.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-oh-perry.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-oh-perry.json"
       },
       {
         "name": "us-oh-pickaway",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150304/us-oh-pickaway.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-oh-pickaway.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-oh-pickaway.json"
       },
       {
         "name": "us-oh-pike",
-        "csv": "http://s3.amazonaws.com/openaddresses/us-oh-pike.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-oh-pike.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-oh-pike.json"
       },
       {
         "name": "us-oh-portage",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150223/us-oh-portage.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-oh-portage.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-oh-portage.json"
       },
       {
         "name": "us-oh-preble",
-        "csv": "http://s3.amazonaws.com/openaddresses/us-oh-preble.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-oh-preble.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-oh-preble.json"
       },
       {
         "name": "us-oh-putnam",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150223/us-oh-putnam.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-oh-putnam.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-oh-putnam.json"
       },
       {
         "name": "us-oh-richland",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150223/us-oh-richland.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-oh-richland.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-oh-richland.json"
       },
       {
         "name": "us-oh-ross",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20150109/us-oh-ross.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-oh-ross.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-oh-ross.json"
       },
       {
         "name": "us-oh-sandusky",
-        "csv": "http://s3.amazonaws.com/openaddresses/us-oh-sandusky.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-oh-sandusky.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-oh-sandusky.json"
       },
       {
         "name": "us-oh-seneca",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150415/us-oh-seneca.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-oh-seneca.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-oh-seneca.json"
       },
       {
         "name": "us-oh-shelby",
-        "csv": "http://s3.amazonaws.com/openaddresses/us-oh-shelby.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-oh-shelby.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-oh-shelby.json"
       },
       {
         "name": "us-oh-stark",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150223/us-oh-stark.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-oh-stark.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-oh-stark.json"
       },
       {
         "name": "us-oh-trumbull",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150223/us-oh-trumbull.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-oh-trumbull.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-oh-trumbull.json"
       },
       {
         "name": "us-oh-tuscarawas",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150223/us-oh-tuscarawas.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-oh-tuscarawas.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-oh-tuscarawas.json"
       },
       {
         "name": "us-oh-van_wert",
-        "csv": "http://s3.amazonaws.com/openaddresses/us-oh-van_wert.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-oh-van_wert.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-oh-van_wert.json"
       },
       {
         "name": "us-oh-vinton",
-        "csv": "http://s3.amazonaws.com/openaddresses/us-oh-vinton.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-oh-vinton.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-oh-vinton.json"
       },
       {
         "name": "us-oh-washington",
-        "csv": "http://s3.amazonaws.com/openaddresses/us-oh-washington.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-oh-washington.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-oh-washington.json"
       },
       {
         "name": "us-oh-wayne",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-oh-wayne.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-oh-wayne.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-oh-wayne.json"
       },
       {
         "name": "us-oh-williams",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150306/us-oh-williams.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-oh-williams.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-oh-williams.json"
       },
       {
         "name": "us-oh-wood",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150223/us-oh-wood.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-oh-wood.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-oh-wood.json"
       },
       {
         "name": "us-oh-wyandot",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150304/us-oh-wyandot.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-oh-wyandot.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-oh-wyandot.json"
       },
       {
         "name": "us-or-benton",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150413/us-or-benton.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-or-benton.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-or-benton.json"
       },
       {
         "name": "us-or-gresham",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-or-gresham.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-or-gresham.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-or-gresham.json"
       },
       {
         "name": "us-or-harney",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150413/us-or-harney.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-or-harney.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-or-harney.json"
       },
       {
         "name": "us-or-lane",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-or-lane.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-or-lane.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-or-lane.json"
       },
       {
         "name": "us-or-oregon_city",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-or-oregon_city.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-or-oregon_city.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-or-oregon_city.json"
       },
       {
         "name": "us-or-portland",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-or-portland.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-or-portland.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-or-portland.json"
       },
       {
         "name": "us-or-portland_metro",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150225/us-or-portland_metro.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-or-portland_metro.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-or-portland_metro.json"
       },
       {
         "name": "us-pa-allegheny",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150320/us-pa-allegheny.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-pa-allegheny.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-pa-allegheny.json"
       },
       {
         "name": "us-pa-beaver",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150316/us-pa-beaver.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-pa-beaver.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-pa-beaver.json"
       },
       {
         "name": "us-pa-bucks",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150406/us-pa-bucks.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-pa-bucks.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-pa-bucks.json"
       },
       {
         "name": "us-pa-cambria",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-pa-cambria.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-pa-cambria.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-pa-cambria.json"
       },
       {
         "name": "us-pa-chester",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150415/us-pa-chester.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-pa-chester.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-pa-chester.json"
       },
       {
         "name": "us-pa-clearfield",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150410/us-pa-clearfield.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-pa-clearfield.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-pa-clearfield.json"
       },
       {
         "name": "us-pa-cumberland",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150420/us-pa-cumberland.obj",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-pa-cumberland.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-pa-cumberland.json"
       },
       {
         "name": "us-pa-lancaster",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-pa-lancaster.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-pa-lancaster.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-pa-lancaster.json"
       },
       {
         "name": "us-pa-philadelphia",
-        "csv": "http://s3.amazonaws.com/openaddresses/us-pa-philadelphia.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-pa-philadelphia.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-pa-philadelphia.json"
       },
       {
         "name": "us-pa-snyder",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150316/us-pa-snyder.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-pa-snyder.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-pa-snyder.json"
       },
       {
         "name": "us-ri-providence",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150406/us-ri-providence.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ri-providence.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ri-providence.json"
       },
       {
         "name": "us-ri",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150309/us-ri.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ri.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ri.json"
       },
       {
         "name": "us-sc-aiken",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-sc-aiken.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-sc-aiken.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-sc-aiken.json"
       },
       {
         "name": "us-sc-beaufort",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-sc-beaufort.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-sc-beaufort.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-sc-beaufort.json"
       },
       {
         "name": "us-sc-berkeley",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150420/us-sc-berkeley.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-sc-berkeley.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-sc-berkeley.json"
       },
       {
         "name": "us-sc-colleton",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150413/us-sc-colleton.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-sc-colleton.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-sc-colleton.json"
       },
       {
         "name": "us-sc-florence",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-sc-florence.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-sc-florence.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-sc-florence.json"
       },
       {
         "name": "us-sc-horry",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-sc-horry.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-sc-horry.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-sc-horry.json"
       },
       {
         "name": "us-sc-laurens",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-sc-laurens.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-sc-laurens.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-sc-laurens.json"
       },
       {
         "name": "us-sc-newberry",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150415/us-sc-newberry.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-sc-newberry.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-sc-newberry.json"
       },
       {
         "name": "us-sc-saluda",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-sc-saluda.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-sc-saluda.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-sc-saluda.json"
       },
       {
         "name": "us-sc-sumter",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-sc-sumter.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-sc-sumter.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-sc-sumter.json"
       },
       {
         "name": "us-sc-york",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-sc-york.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-sc-york.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-sc-york.json"
       },
       {
         "name": "us-sd",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-sd.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-sd.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-sd.json"
       },
       {
         "name": "us-tn-franklin",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150316/us-tn-franklin.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-tn-franklin.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-tn-franklin.json"
       },
       {
         "name": "us-tn-jefferson",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150316/us-tn-jefferson.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-tn-jefferson.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-tn-jefferson.json"
       },
       {
         "name": "us-tn-rutherford",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-tn-rutherford.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-tn-rutherford.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-tn-rutherford.json"
       },
       {
         "name": "us-tx-austin",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150415/us-tx-austin.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-tx-austin.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-tx-austin.json"
       },
       {
         "name": "us-tx-city_of_pflugerville",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-tx-city_of_pflugerville.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-tx-city_of_pflugerville.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-tx-city_of_pflugerville.json"
       },
       {
         "name": "us-tx-colleyville",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150316/us-tx-colleyville.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-tx-colleyville.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-tx-colleyville.json"
       },
       {
         "name": "us-tx-dallas",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150316/us-tx-dallas.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-tx-dallas.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-tx-dallas.json"
       },
       {
         "name": "us-tx-denton",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150417/us-tx-denton.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-tx-denton.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-tx-denton.json"
       },
       {
         "name": "us-tx-desoto",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150316/us-tx-desoto.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-tx-desoto.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-tx-desoto.json"
       },
       {
         "name": "us-tx-el_paso",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150417/us-tx-el_paso.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-tx-el_paso.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-tx-el_paso.json"
       },
       {
         "name": "us-tx-houston",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150410/us-tx-houston.exe",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-tx-houston.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-tx-houston.json"
       },
       {
         "name": "us-tx-hurst",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150316/us-tx-hurst.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-tx-hurst.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-tx-hurst.json"
       },
       {
         "name": "us-tx-keller",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150316/us-tx-keller.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-tx-keller.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-tx-keller.json"
       },
       {
         "name": "us-tx-new_braunfels",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-tx-new_braunfels.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-tx-new_braunfels.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-tx-new_braunfels.json"
       },
       {
         "name": "us-tx-north_richland_hills",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150316/us-tx-north_richland_hills.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-tx-north_richland_hills.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-tx-north_richland_hills.json"
       },
       {
         "name": "us-tx-waco",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150316/us-tx-waco.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-tx-waco.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-tx-waco.json"
       },
       {
         "name": "us-tx-williamson",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150415/us-tx-williamson.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-tx-williamson.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-tx-williamson.json"
       },
       {
         "name": "us-ut-duchesne",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150420/us-ut-duchesne.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ut-duchesne.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ut-duchesne.json"
       },
       {
         "name": "us-ut",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150417/us-ut.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-ut.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-ut.json"
       },
       {
         "name": "us-va-accomack",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150320/us-va-accomack.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-va-accomack.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-va-accomack.json"
       },
       {
         "name": "us-va-amherst",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150316/us-va-amherst.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-va-amherst.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-va-amherst.json"
       },
       {
         "name": "us-va-arlington",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150415/us-va-arlington.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-va-arlington.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-va-arlington.json"
       },
       {
         "name": "us-va-city_of_alexandria",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150415/us-va-city_of_alexandria.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-va-city_of_alexandria.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-va-city_of_alexandria.json"
       },
       {
         "name": "us-va-city_of_chesapeake",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-va-city_of_chesapeake.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-va-city_of_chesapeake.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-va-city_of_chesapeake.json"
       },
       {
         "name": "us-va-city_of_emporia",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150316/us-va-city_of_emporia.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-va-city_of_emporia.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-va-city_of_emporia.json"
       },
       {
         "name": "us-va-city_of_norton",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150316/us-va-city_of_norton.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-va-city_of_norton.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-va-city_of_norton.json"
       },
       {
         "name": "us-va-city_of_radford",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150410/us-va-city_of_radford.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-va-city_of_radford.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-va-city_of_radford.json"
       },
       {
         "name": "us-va-city_of_richmond",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150415/us-va-city_of_richmond.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-va-city_of_richmond.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-va-city_of_richmond.json"
       },
       {
         "name": "us-va-city_of_salem",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150406/us-va-city_of_salem.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-va-city_of_salem.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-va-city_of_salem.json"
       },
       {
         "name": "us-va-city_of_staunton",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-va-city_of_staunton.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-va-city_of_staunton.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-va-city_of_staunton.json"
       },
       {
         "name": "us-va-clarke",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150302/us-va-clarke.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-va-clarke.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-va-clarke.json"
       },
       {
         "name": "us-va-essex",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150316/us-va-essex.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-va-essex.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-va-essex.json"
       },
       {
         "name": "us-va-fairfax",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150316/us-va-fairfax.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-va-fairfax.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-va-fairfax.json"
       },
       {
         "name": "us-va-fluvanna",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150415/us-va-fluvanna.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-va-fluvanna.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-va-fluvanna.json"
       },
       {
         "name": "us-va-franklin",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-va-franklin.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-va-franklin.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-va-franklin.json"
       },
       {
         "name": "us-va-giles",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150316/us-va-giles.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-va-giles.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-va-giles.json"
       },
       {
         "name": "us-va-grayson",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-va-grayson.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-va-grayson.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-va-grayson.json"
       },
       {
         "name": "us-va-greene",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150320/us-va-greene.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-va-greene.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-va-greene.json"
       },
       {
         "name": "us-va-halifax",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150316/us-va-halifax.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-va-halifax.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-va-halifax.json"
       },
       {
         "name": "us-va-isle_of_wight",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150413/us-va-isle_of_wight.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-va-isle_of_wight.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-va-isle_of_wight.json"
       },
       {
         "name": "us-va-james_city",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150420/us-va-james_city.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-va-james_city.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-va-james_city.json"
       },
       {
         "name": "us-va-loudoun",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-va-loudoun.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-va-loudoun.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-va-loudoun.json"
       },
       {
         "name": "us-va-louisa",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150410/us-va-louisa.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-va-louisa.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-va-louisa.json"
       },
       {
         "name": "us-va-madison",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150320/us-va-madison.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-va-madison.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-va-madison.json"
       },
       {
         "name": "us-va-middlesex",
-        "csv": "http://s3.amazonaws.com/openaddresses/20140814/us-va-middlesex.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-va-middlesex.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-va-middlesex.json"
       },
       {
         "name": "us-va-nelson",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150316/us-va-nelson.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-va-nelson.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-va-nelson.json"
       },
       {
         "name": "us-va-new_kent",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-va-new_kent.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-va-new_kent.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-va-new_kent.json"
       },
       {
         "name": "us-va-nottoway",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150316/us-va-nottoway.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-va-nottoway.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-va-nottoway.json"
       },
       {
         "name": "us-va-orange",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150316/us-va-orange.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-va-orange.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-va-orange.json"
       },
       {
         "name": "us-va-rockbridge",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150403/us-va-rockbridge.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-va-rockbridge.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-va-rockbridge.json"
       },
       {
         "name": "us-va-shenandoah",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150410/us-va-shenandoah.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-va-shenandoah.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-va-shenandoah.json"
       },
       {
         "name": "us-va-smyth",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150405/us-va-smyth.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-va-smyth.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-va-smyth.json"
       },
       {
         "name": "us-va-spotsylvania",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150420/us-va-spotsylvania.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-va-spotsylvania.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-va-spotsylvania.json"
       },
       {
         "name": "us-va-stafford",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20150113/us-va-stafford.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-va-stafford.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-va-stafford.json"
       },
       {
         "name": "us-va-town_of_blacksburg",
-        "csv": "http://s3.amazonaws.com/openaddresses/20140815/us-va-town_of_blacksburg",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-va-town_of_blacksburg.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-va-town_of_blacksburg.json"
       },
       {
         "name": "us-va-warren",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-va-warren.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-va-warren.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-va-warren.json"
       },
       {
         "name": "us-va-warrenton",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150405/us-va-warrenton.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-va-warrenton.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-va-warrenton.json"
       },
       {
         "name": "us-va-williamsburg",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150410/us-va-williamsburg.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-va-williamsburg.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-va-williamsburg.json"
       },
       {
         "name": "us-va-wise",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150415/us-va-wise.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-va-wise.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-va-wise.json"
       },
       {
         "name": "us-va",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150402/us-va.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-va.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-va.json"
       },
       {
         "name": "us-vt-burlington",
-        "csv": "http://s3.amazonaws.com/openaddresses/us-vt-burlington",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-vt-burlington.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-vt-burlington.json"
       },
       {
         "name": "us-vt",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20150106/us-vt.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-vt.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-vt.json"
       },
       {
         "name": "us-wa-bellingham",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150420/us-wa-bellingham.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-wa-bellingham.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-wa-bellingham.json"
       },
       {
         "name": "us-wa-chelan",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150413/us-wa-chelan.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-wa-chelan.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-wa-chelan.json"
       },
       {
         "name": "us-wa-city_of_spokane",
-        "csv": "http://s3.amazonaws.com/data.openaddresses.io/20141127/us-wa-city_of_spokane.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-wa-city_of_spokane.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-wa-city_of_spokane.json"
       },
       {
         "name": "us-wa-clallam",
-        "csv": "http://s3.amazonaws.com/openaddresses-cfa/20141030/us-wa-clallam.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-wa-clallam.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-wa-clallam.json"
       },
       {
         "name": "us-wa-douglas",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150403/us-wa-douglas.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-wa-douglas.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-wa-douglas.json"
       },
       {
         "name": "us-wa-island",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150220/us-wa-island.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-wa-island.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-wa-island.json"
       },
       {
         "name": "us-wa-jefferson",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-wa-jefferson.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-wa-jefferson.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-wa-jefferson.json"
       },
       {
         "name": "us-wa-king",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150220/us-wa-king.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-wa-king.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-wa-king.json"
       },
       {
         "name": "us-wa-kitsap",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-wa-kitsap.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-wa-kitsap.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-wa-kitsap.json"
       },
       {
         "name": "us-wa-okanogan",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150402/us-wa-okanogan.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-wa-okanogan.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-wa-okanogan.json"
       },
       {
         "name": "us-wa-pacific",
-        "csv": "http://s3.amazonaws.com/openaddresses-cfa/20141030/us-wa-pacific.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-wa-pacific.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-wa-pacific.json"
       },
       {
         "name": "us-wa-san_juan",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150417/us-wa-san_juan.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-wa-san_juan.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-wa-san_juan.json"
       },
       {
         "name": "us-wa-seattle",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150220/us-wa-seattle.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-wa-seattle.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-wa-seattle.json"
       },
       {
         "name": "us-wa-skagit",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-wa-skagit.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-wa-skagit.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-wa-skagit.json"
       },
       {
         "name": "us-wi-bayfield",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-wi-bayfield.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-wi-bayfield.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-wi-bayfield.json"
       },
       {
         "name": "us-wi-brown",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150402/us-wi-brown.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-wi-brown.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-wi-brown.json"
       },
       {
         "name": "us-wi-calumet",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150218/us-wi-calumet.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-wi-calumet.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-wi-calumet.json"
       },
       {
         "name": "us-wi-columbia",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-wi-columbia.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-wi-columbia.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-wi-columbia.json"
       },
       {
         "name": "us-wi-dane",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-wi-dane.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-wi-dane.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-wi-dane.json"
       },
       {
         "name": "us-wi-fond_du_lac",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-wi-fond_du_lac.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-wi-fond_du_lac.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-wi-fond_du_lac.json"
       },
       {
         "name": "us-wi-green",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150420/us-wi-green.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-wi-green.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-wi-green.json"
       },
       {
         "name": "us-wi-iron",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150316/us-wi-iron.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-wi-iron.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-wi-iron.json"
       },
       {
         "name": "us-wi-kenosha",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150415/us-wi-kenosha.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-wi-kenosha.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-wi-kenosha.json"
       },
       {
         "name": "us-wi-marathon",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150402/us-wi-marathon.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-wi-marathon.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-wi-marathon.json"
       },
       {
         "name": "us-wi-milwaukee",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-wi-milwaukee.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-wi-milwaukee.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-wi-milwaukee.json"
       },
       {
         "name": "us-wi-pierce",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150413/us-wi-pierce.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-wi-pierce.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-wi-pierce.json"
       },
       {
         "name": "us-wi-rock",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150417/us-wi-rock.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-wi-rock.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-wi-rock.json"
       },
       {
         "name": "us-wi-superior",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150417/us-wi-superior.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-wi-superior.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-wi-superior.json"
       },
       {
         "name": "us-wi-trempealeau",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150316/us-wi-trempealeau.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-wi-trempealeau.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-wi-trempealeau.json"
       },
       {
         "name": "us-wi-vernon",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-wi-vernon.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-wi-vernon.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-wi-vernon.json"
       },
       {
         "name": "us-wi-walworth",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150420/us-wi-walworth.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-wi-walworth.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-wi-walworth.json"
       },
       {
         "name": "us-wi-waukesha",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-wi-waukesha.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-wi-waukesha.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-wi-waukesha.json"
       },
       {
         "name": "us-wi-waupaca",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-wi-waupaca.ZIP",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-wi-waupaca.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-wi-waupaca.json"
       },
       {
         "name": "us-wi-wood",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150417/us-wi-wood.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-wi-wood.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-wi-wood.json"
       },
       {
         "name": "us-wv-preston",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150406/us-wv-preston.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-wv-preston.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-wv-preston.json"
       },
       {
         "name": "us-wv-raleigh",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150413/us-wv-raleigh.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-wv-raleigh.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-wv-raleigh.json"
       },
       {
         "name": "us-wy-albany",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150316/us-wy-albany.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-wy-albany.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-wy-albany.json"
       },
       {
         "name": "us-wy-carbon",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150316/us-wy-carbon.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-wy-carbon.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-wy-carbon.json"
       },
       {
         "name": "us-wy-fremont",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-wy-fremont.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-wy-fremont.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-wy-fremont.json"
       },
       {
         "name": "us-wy-laramie",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150422/us-wy-laramie.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-wy-laramie.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-wy-laramie.json"
       },
       {
         "name": "us-wy-natrona",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150420/us-wy-natrona.csv",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/us-wy-natrona.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/us-wy-natrona.json"
       }
     ]
@@ -24808,7 +24808,7 @@ module.exports=[
     "South Africa": [
       {
         "name": "za-nl-ethekwini",
-        "csv": "http://data.openaddresses.io.s3.amazonaws.com/20150415/za-nl-ethekwini.zip",
+        "csv": "http://data.openaddresses.io.s3.amazonaws.com/za-nl-ethekwini.zip",
         "json": "https://github.com/openaddresses/openaddresses/blob/master/sources/za-nl-ethekwini.json"
       }
     ]

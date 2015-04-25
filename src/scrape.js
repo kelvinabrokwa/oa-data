@@ -28,7 +28,7 @@ function scrape (url) {
         }
         var obj = {};
         obj['name'] = row[0].split('.')[0];
-        obj['csv'] = row[1];
+        obj['csv'] = 'http://data.openaddresses.io.s3.amazonaws.com/' + obj['name'] + '.zip'
         obj['json'] = 'https://github.com/openaddresses/openaddresses/blob/master/sources/' + row[0];
         output[iso[code]].push(obj);
       });
@@ -41,7 +41,6 @@ function scrape (url) {
       }
 
       fs.writeFileSync(path.join(__dirname, './data.json'), JSON.stringify(out, null, 2));
-      fs.writeFileSync(path.join(__dirname, './map.json'), JSON.stringify(countries, null, 2));      
       console.log('Done scraping. Data cached at /src/data.json');
     }
   });
