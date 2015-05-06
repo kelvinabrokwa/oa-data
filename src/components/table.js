@@ -3,35 +3,20 @@
 var React = require('react');
 
 module.exports = React.createClass({
-  render: function () { 
-    var output = [];
-    this.props.data.forEach(function(country) {
-      var key = Object.keys(country)[0];
-      output.push(
-        <Table country={key} data={country[key]}/>
-      );
-    });
+  render() { 
     return (
       <div>
-        {output}
+        {this.props.data.map(country => <Table 
+          country={Object.keys(country)[0]}
+          data={country[Object.keys(country)[0]]}
+       />)}
       </div>
     );
   }
 });
 
 var Table = React.createClass({
-  render: function () {
-    var raw = this.props.data;
-    var output = [];
-    raw.forEach(function (r) {
-      output.push(
-        <Row
-          json={r.json}
-          name={r.name}
-          csv={r.csv}
-        />
-      );
-    });
+  render() {
     return (
       <div>
         <h2 id='country'>{this.props.country}</h2>
@@ -43,7 +28,7 @@ var Table = React.createClass({
             </tr>
           </thead>
           <tbody>
-            {output}
+            {this.props.data.map(d => <Row json={d.json} name={d.name} csv={d.csv} />)}
           </tbody>
         </table>
       </div>
@@ -52,7 +37,7 @@ var Table = React.createClass({
 });
 
 var Row = React.createClass({
-  render: function () {
+  render() {
     return (
       <tr>
         <td>

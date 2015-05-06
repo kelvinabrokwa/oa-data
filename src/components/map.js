@@ -4,9 +4,9 @@ var React = require('react'),
     Reflux = require('reflux');
 
 module.exports = React.createClass({
-  render: function () {
+  render() {
     var data_obj = {};
-    this.props.data.forEach(function (country) {
+    this.props.data.forEach(country => {
       data_obj[country] = {fillKey: 'result'};
     });
     this.props.data = data_obj;
@@ -19,7 +19,7 @@ module.exports = React.createClass({
 });
 
 var Map = React.createClass({
-  componentDidMount: function () {
+  componentDidMount() {
     this.map = new Datamap({
       element: this.refs.map.getDOMNode(),
       scope: 'world',
@@ -32,10 +32,10 @@ var Map = React.createClass({
       data: this.props.data
     });
   },
-  componentDidUpdate: function () {
+  componentDidUpdate() {
     this.map.updateChoropleth(this.props.data);
   },
-  render: function () {
+  render() {
     return (
       <div id='map_container'>
         <div id='map' ref='map'></div>

@@ -21179,9 +21179,6 @@ module.exports = React.createClass({
   filter: function filter(e) {
     actions.filterList(e.target.value);
   },
-  map: function map(e) {
-    actions.map(e.target.value);
-  },
   render: function render() {
     return React.createElement('input', { type: 'text', placeholder: 'Search', onChange: this.filter });
   }
@@ -21196,15 +21193,15 @@ module.exports = React.createClass({
   displayName: 'exports',
 
   render: function render() {
-    var output = [];
-    this.props.data.forEach(function (country) {
-      var key = Object.keys(country)[0];
-      output.push(React.createElement(Table, { country: key, data: country[key] }));
-    });
     return React.createElement(
       'div',
       null,
-      output
+      this.props.data.map(function (country) {
+        return React.createElement(Table, {
+          country: Object.keys(country)[0],
+          data: country[Object.keys(country)[0]]
+        });
+      })
     );
   }
 });
@@ -21213,15 +21210,6 @@ var Table = React.createClass({
   displayName: 'Table',
 
   render: function render() {
-    var raw = this.props.data;
-    var output = [];
-    raw.forEach(function (r) {
-      output.push(React.createElement(Row, {
-        json: r.json,
-        name: r.name,
-        csv: r.csv
-      }));
-    });
     return React.createElement(
       'div',
       null,
@@ -21254,7 +21242,9 @@ var Table = React.createClass({
         React.createElement(
           'tbody',
           null,
-          output
+          this.props.data.map(function (d) {
+            return React.createElement(Row, { json: d.json, name: d.name, csv: d.csv });
+          })
         )
       )
     );
@@ -25078,9 +25068,7 @@ var iso3 = require('../iso3.json'),
 var actions = require('../actions/actions.js');
 
 module.exports = Reflux.createStore({
-  init: function init() {
-    this.listenTo(actions.filterList, this.filter);
-  },
+  init: function init() {},
   getInitialState: function getInitialState() {
     var countries = data.map(function (country) {
       return Object.keys(country)[0];
@@ -25097,6 +25085,8 @@ module.exports = Reflux.createStore({
     }));
   }
 });
+
+//this.listenTo(actions.filterList, this.filter);
 
 },{"../actions/actions.js":178,"../data.json":182,"../iso3.json":183,"reflux":158}],185:[function(require,module,exports){
 'use strict';

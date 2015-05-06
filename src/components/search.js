@@ -6,13 +6,10 @@ var React = require('react'),
 var actions = require('../actions/actions');
 
 module.exports = React.createClass({
-  filter: function (e) {
+  filter(e) {
     actions.filterList(e.target.value);
   },
-  map: function (e) {
-    actions.map(e.target.value);
-  },
-  render: function () {
+  render() {
     return (
       <input type='text' placeholder='Search' onChange={this.filter} />
     );
